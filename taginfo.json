@@ -1,94 +1,40 @@
 {
        "data_format": 1,
-       "data_url": "...",
-       "data_updated": "yyyymmddThhmmssZ",
+       "data_url": "https://github.com/basilstotz/speierling-projekt/raw/refs/heads/main/taginfo.json",
+       "data_updated": "20250106T144242Z",
        "project": {
            "name": "Projekt Speierling",
-           "description": "...",
+           "description": "The project aims to protect and progagate service trees",
            "project_url": "https://speierling.arglos.ch",
-           "doc_url": "...",
-           "icon_url": "...",
+           "doc_url": "https://speierling.arglos.ch",
            "contact_name": "Martin Dick",
            "contact_email": "martindick56@gmail.com"
        },
     "tags": [
-	 {
-       "key": "natural",          # OSM tag key (required)
-       "value": "tree",        # OSM tag value (optional, if not supplied it means "all values")
-       "object_types": [...], # OSM object types this key/tag can be used for (optional, see below)
-       "description": "...",  # how the key/tag is used in this project (optional)
-       "doc_url": "...",      # link to further documentation of the project about this specific key/tag (optional)
-       "icon_url": "..."      # URL of an icon, should work in 16x16 pixels on white and light gray backgrounds (optional)
-	 },
-	 {
-	     "key": "natural",
-	     "value": "tree",
-	     "object_types": ["node"],
-	     "description": "",
-	     "doc_url": "https://wiki.openstreetmap.org/wiki/Tag:natural=tree",
-	     "icon_url": ""
-	     
-	 },
-	 {
-	     "key": "natural",
-	     "value": "tree_stump",
-	     "object_types": ["node"],
-	     "description": "",
-	     "doc_url": "https://wiki.openstreetmap.org/wiki/Tag%3Anatural%3Dtree_stump",
-	     "icon_url": ""	     
-	 },
-	 {
-	     "key": "species",
-	     "value": "Sorbus domestica",
-	     "object_types": ["node"],
-	     "description": "",
-	     "doc_url": "https://wiki.openstreetmap.org/wiki/Key%3Aspecies",
-	     "icon_url": ""
-	     
-	 },
-	 {
-	     "key": "circumference",
-	     "object_types": [],
-	     "description": "",
-	     "doc_url": "https://wiki.openstreetmap.org/wiki/Key%3Acircumference",
-	     "icon_url": ""
-	     
-	 },
-	 {
-	     "key": "height",
-	     "object_types": [],
-	     "description": "",
-	     "doc_url": "https://wiki.openstreetmap.org/wiki/Key:height",
-	     "icon_url": ""  
-	 },
-	 {
-	     "key": "est_height",
-	     "object_types": [],
-	     "description": "",
-	     "doc_url": "https://wiki.openstreetmap.org/wiki/Key%3Aest_height",
-	     "icon_url": ""
-	 },
-	 {
-	     "key": "diameter_crown",
-	     "object_types": [],
-	     "description": "",
-	     "doc_url": "https://wiki.openstreetmap.org/Key:diameter_crown",
-	     "icon_url": ""
-	 },
+	 { "key": "natural", "value": "tree"  },
+	 { "key": "natural", "value": "tree_stump"  },
+	 { "key": "species", "value": "Sorbus domestica"  },
+	 { "key": "circumference"  },
+	 { "key": "height" },
+	 { "key": "est_height" },
+	 { "key": "diameter_crown" },
+	 { "key": "ele" },
+	 { "key": "addr:country" },
+	 { "key": "addr:county" },
+	 { "key": "addr:place" },
+	 { "key": "image", "doc_url": "https://wiki.openstreetmap.org/wiki/Key%3Aimage" },
 	 {
 	     "key": "propagation",
 	     "value": "natural",
-	     "object_types": [],
-	     "description": "",
-	     "doc_url": "https://wiki.openstreetmap.org/wiki/Key:propagation",
-	     "icon_url": ""
-	     
+	     "object_types": ["node"],
+	     "description": "progated naturaly",
+	     "doc_url": "https://wiki.openstreetmap.org/wiki/Key:propagation"    
 	 },
 	 {
 	     "key": "propagation",
 	     "value": "sucker",
 	     "object_types": ["node"],
-	     "description": "",
+	     "description": "progated naturaly with a sucker",
 	     "doc_url": "https://wiki.openstreetmap.org/wiki/Key:propagation",
 	     "icon_url": ""
 	 },
@@ -96,7 +42,7 @@
 	     "key": "propagation",
 	     "value": "planted",
 	     "object_types": ["node"],
-	     "description": "",
+	     "description": "planted with unkown method",
 	     "doc_url": "https://wiki.openstreetmap.org/wiki/Key:propagation",
 	     "icon_url": ""
 	 },
@@ -104,7 +50,7 @@
 	     "key": "propagation",
 	     "value": "seed",
 	     "object_types": ["node"],
-	     "description": "",
+	     "description": "planted by seeds",
 	     "doc_url": "",
 	     "icon_url": ""     
 	 },
@@ -112,69 +58,18 @@
 	     "key": "propagation",
 	     "value": "graft",
 	     "object_types": ["node"],
-	     "description": "",
+	     "description": "planted by graft (on a rootstock)",
 	     "doc_url": "https://wiki.openstreetmap.org/wiki/Key:propagation",
 	     "icon_url": ""
-	     
 	 },
 	 {
-	     "key": "propagation:parent",
+	     "key": "propagation",
+	     "value": "cutting",
 	     "object_types": ["node"],
-	     "description": "",
-	     "doc_url": "",
+	     "description": "Planted by cutting (without a rootstocl",
+	     "doc_url": "https://wiki.openstreetmap.org/wiki/Key:propagation",
 	     "icon_url": ""
-	 },
-	 {
-	     "key": "elevation",
-	     "value": "",
-	     "object_types": ["node"],
-	     "description": "",
-	     "doc_url": "",
-	     "icon_url": ""
-	 },
-	 {
-	     "key": "addr:country",
-	     "object_types": ["node"],
-	     "description": "",
-	     "doc_url": "",
-	     "icon_url": ""
-	     
-	 },
-	 {
-	     "key": "addr:county",
-	     "object_types": ["node"],
-	     "description": "",
-	     "doc_url": "",
-	     "icon_url": ""
-	 },
-	 {
-	     "key": "addr:place",
-	     "object_types": ["node"],
-	     "description": "",
-	     "doc_url": "",
-	     "icon_url": ""
-	 },
-	 {
-	     "key": "addr:area",
-	     "object_types": ["node"],
-	     "description": "",
-	     "doc_url": "",
-	     "icon_url": ""
-	 },
-	 {
-	     "key": "image",
-	     "object_types": ["node"],
-	     "description": "",
-	     "doc_url": "https://wiki.openstreetmap.org/wiki/Key%3Aimage",
-	     "icon_url": ""
-	 },
-	 {
-	     "key": "media",
-	     "object_types": ["node"],
-	     "description": "",
-	     "doc_url": "",
-	     "icon_url": ""
-	 },
+	 }
     ]
 }
 
