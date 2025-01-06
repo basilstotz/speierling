@@ -1,0 +1,180 @@
+{
+       "data_format": 1,
+       "data_url": "...",
+       "data_updated": "yyyymmddThhmmssZ",
+       "project": {
+           "name": "Projekt Speierling",
+           "description": "...",
+           "project_url": "https://speierling.arglos.ch",
+           "doc_url": "...",
+           "icon_url": "...",
+           "contact_name": "Martin Dick",
+           "contact_email": "martindick56@gmail.com"
+       },
+    "tags": [
+	 {
+       "key": "natural",          # OSM tag key (required)
+       "value": "tree",        # OSM tag value (optional, if not supplied it means "all values")
+       "object_types": [...], # OSM object types this key/tag can be used for (optional, see below)
+       "description": "...",  # how the key/tag is used in this project (optional)
+       "doc_url": "...",      # link to further documentation of the project about this specific key/tag (optional)
+       "icon_url": "..."      # URL of an icon, should work in 16x16 pixels on white and light gray backgrounds (optional)
+	 },
+	 {
+	     "key": "natural",
+	     "value": "tree",
+	     "object_types": ["node"],
+	     "description": "",
+	     "doc_url": "https://wiki.openstreetmap.org/wiki/Tag:natural=tree",
+	     "icon_url": ""
+	     
+	 },
+	 {
+	     "key": "natural",
+	     "value": "tree_stump",
+	     "object_types": ["node"],
+	     "description": "",
+	     "doc_url": "https://wiki.openstreetmap.org/wiki/Tag%3Anatural%3Dtree_stump",
+	     "icon_url": ""	     
+	 },
+	 {
+	     "key": "species",
+	     "value": "Sorbus domestica",
+	     "object_types": ["node"],
+	     "description": "",
+	     "doc_url": "https://wiki.openstreetmap.org/wiki/Key%3Aspecies",
+	     "icon_url": ""
+	     
+	 },
+	 {
+	     "key": "circumference",
+	     "object_types": [],
+	     "description": "",
+	     "doc_url": "https://wiki.openstreetmap.org/wiki/Key%3Acircumference",
+	     "icon_url": ""
+	     
+	 },
+	 {
+	     "key": "height",
+	     "object_types": [],
+	     "description": "",
+	     "doc_url": "https://wiki.openstreetmap.org/wiki/Key:height",
+	     "icon_url": ""  
+	 },
+	 {
+	     "key": "est_height",
+	     "object_types": [],
+	     "description": "",
+	     "doc_url": "https://wiki.openstreetmap.org/wiki/Key%3Aest_height",
+	     "icon_url": ""
+	 },
+	 {
+	     "key": "diameter_crown",
+	     "object_types": [],
+	     "description": "",
+	     "doc_url": "https://wiki.openstreetmap.org/Key:diameter_crown",
+	     "icon_url": ""
+	 },
+	 {
+	     "key": "propagation",
+	     "value": "natural",
+	     "object_types": [],
+	     "description": "",
+	     "doc_url": "https://wiki.openstreetmap.org/wiki/Key:propagation",
+	     "icon_url": ""
+	     
+	 },
+	 {
+	     "key": "propagation",
+	     "value": "sucker",
+	     "object_types": ["node"],
+	     "description": "",
+	     "doc_url": "https://wiki.openstreetmap.org/wiki/Key:propagation",
+	     "icon_url": ""
+	 },
+	 {
+	     "key": "propagation",
+	     "value": "planted",
+	     "object_types": ["node"],
+	     "description": "",
+	     "doc_url": "https://wiki.openstreetmap.org/wiki/Key:propagation",
+	     "icon_url": ""
+	 },
+	 {
+	     "key": "propagation",
+	     "value": "seed",
+	     "object_types": ["node"],
+	     "description": "",
+	     "doc_url": "",
+	     "icon_url": ""     
+	 },
+	 {
+	     "key": "propagation",
+	     "value": "graft",
+	     "object_types": ["node"],
+	     "description": "",
+	     "doc_url": "https://wiki.openstreetmap.org/wiki/Key:propagation",
+	     "icon_url": ""
+	     
+	 },
+	 {
+	     "key": "propagation:parent",
+	     "object_types": ["node"],
+	     "description": "",
+	     "doc_url": "",
+	     "icon_url": ""
+	 },
+	 {
+	     "key": "elevation",
+	     "value": "",
+	     "object_types": ["node"],
+	     "description": "",
+	     "doc_url": "",
+	     "icon_url": ""
+	 },
+	 {
+	     "key": "addr:country",
+	     "object_types": ["node"],
+	     "description": "",
+	     "doc_url": "",
+	     "icon_url": ""
+	     
+	 },
+	 {
+	     "key": "addr:county",
+	     "object_types": ["node"],
+	     "description": "",
+	     "doc_url": "",
+	     "icon_url": ""
+	 },
+	 {
+	     "key": "addr:place",
+	     "object_types": ["node"],
+	     "description": "",
+	     "doc_url": "",
+	     "icon_url": ""
+	 },
+	 {
+	     "key": "addr:area",
+	     "object_types": ["node"],
+	     "description": "",
+	     "doc_url": "",
+	     "icon_url": ""
+	 },
+	 {
+	     "key": "image",
+	     "object_types": ["node"],
+	     "description": "",
+	     "doc_url": "https://wiki.openstreetmap.org/wiki/Key%3Aimage",
+	     "icon_url": ""
+	 },
+	 {
+	     "key": "media",
+	     "object_types": ["node"],
+	     "description": "",
+	     "doc_url": "",
+	     "icon_url": ""
+	 },
+    ]
+}
+
