@@ -114,15 +114,15 @@ button {
 
 
 <script>
-function httpGet(theUrl, callback)                                                                                                                    
-{                                                                                                                                                     
-    var xmlHttp = new XMLHttpRequest();                                                                                                               
-    xmlHttp.onreadystatechange = function() {                                                                                                         
-        if (xmlHttp.readyState == 4 && xmlHttp.status == 200)                                                                                         
-            callback(xmlHttp.responseText);                                                                                                           
-    }                                                                                                                                                 
-    xmlHttp.open("GET", theUrl, true); // true for asynchronous                                                                                       
-    xmlHttp.send(null);                                                                                                                               
+function httpGet(theUrl, callback)
+{
+    var xmlHttp = new XMLHttpRequest();
+    xmlHttp.onreadystatechange = function() {
+        if (xmlHttp.readyState == 4 && xmlHttp.status == 200)
+            callback(xmlHttp.responseText);
+    }
+    xmlHttp.open("GET", theUrl, true); // true for asynchronous
+    xmlHttp.send(null);
 }
 </script>
 
@@ -217,24 +217,30 @@ httpGet('sorbusdomestica.geojson', (text) => {
 
       for(let i=0;i<stats.all;i++){
          var item=sorbusdomestica.features[i];
-         if(item.properties.project){
+         if(item.properties.tags.speierlingproject){
 	     stats.project++;
-             if(item.properties.project.Vermehrungstyp){
-                 switch(item.properties.project.Vermehrungstyp){
-                    case "N": stats.natural++;
+             if(item.properties.tags.propagation){
+                 switch(item.properties.tags.propagation){
+                    case "natural": stats.natural++;
                               break;
-                    case "U": stats.natural++;
+                    case "sucker": stats.natural++;
                               break;
-                    case "TR": stats.plantation++
+                    case "planted": 
 		               break;
-                    case "TS": stats.plantation++
+                    case "graft": stats.plantation++
+		               break;
+                    case "seed": stats.plantation++
 		               break;
                     default: break;
 
                  }
              }
           }
-         if(item.properties.pictures)stats.pics+=item.properties.pictures.length;
+          if(item.properties.pictures){
+	      stats.pics+=item.properties.pictures.length
+	  }else if(item.properties.tags["meta:media_size"]){
+	      stats.pics+=item.properties.tags["meta:media_size"]
+	  }
       }
 
 

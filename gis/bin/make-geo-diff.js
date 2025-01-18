@@ -9,7 +9,7 @@ function updateTags(originalFeature){
 
     
     // to be removed? done in beautify.js?
-    let filter = [
+    const filter = [
 	"elevation",
         "nominatim",
         "user",
@@ -37,7 +37,7 @@ function updateTags(originalFeature){
     }
 
 
-    // remove addr: tags in update
+    // remove addr: tags i and in filter in update
     for(let j=0;j<beautify.update.length;j++){
 	let key=beautify.update[j];
 	if(filter.includes(key)||key.startsWith("addr:")){
@@ -60,6 +60,7 @@ function updateTags(originalFeature){
       return (addr[key]&&addr[key]==value)
     }
 
+    // to be removed
     let geoF=geoFilter(addr,"addr:town","Münchenstein");
 
     if(changed.length>0 && tags.propagation && geoF){
@@ -76,6 +77,7 @@ function updateTags(originalFeature){
 	}
 	
 	//add keys to delete, this is only done when thre are other updates (to minimize changesets)
+
 	for(let j=0;j<beautify.remove.length;j++)tags[key]="🗑️'";
 
 	if(outFeature.properties.project){delete outFeature.properties.project}
@@ -91,6 +93,7 @@ function updateTags(originalFeature){
 
 	return outFeature;
     }
+    
     return false;
 }
 
@@ -107,6 +110,8 @@ function processGeojson(geoIn){
     
     process.stdout.write(JSON.stringify(geoOut,null,2)+'\n');
 }
+
+
 
 var chunks = '';
 

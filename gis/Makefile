@@ -2,14 +2,7 @@
 all: site/sorbusdomestica.geojson
 
 site/sorbusdomestica.geojson: tmp/project.json tmp/bilder.json
-	echo "" > beautify.log 
-	cat ./osm/sorbusdomestica.geojson | ./bin/add-pics.js ./tmp/bilder.json | \
-            ./bin/add-project.js ./tmp/project.json | tee sorbusdomestica.geojson | \
-            ./bin/beautify.js 2>beautify.log  > ./site/sorbusdomestica.geojson
-	cat ./site/sorbusdomestica.geojson | ./bin/reduce.js | ./bin/flatten-tags.js > ../sorbusdomestica.geojson
-	cat ./site/sorbusdomestica.geojson | ./bin/make-geo-diff.js > ./site/sorbusdomestica-diff.geojson
-
-#	./bin/geojson2js.sh ./site/sorbusdomestica.geojson  > ./site/sorbusdomestica.js
+	./bin/update-geojson.sh
 
 tmp/bilder.json: node  
 	./bin/make-bilder.sh ./site/node  | ./bin/make-media.js > ./tmp/bilder.json

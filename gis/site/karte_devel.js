@@ -16,7 +16,7 @@ function addParent(geojson){
     // make indexOpbject                                                                                                    
     for(let i=0;i<geojson.features.length;i++){
         let feature=geojson.features[i];
-        indexed[feature.id]=feature;
+        indexed[feature.properties.id]=feature;
     }
 
     // make parentIndex;                                                                                                    
@@ -121,13 +121,6 @@ function pointToLayer(feature, latlng) {
     let m;
     let pro=false;
 
-    if(feature.properties.beautify){
-         let b=feature.properties.beautify;
-         //b.update.forEach( (val) => { if(val=="propagation")pro=true});
-         b.create.forEach( (val) => { if(val=="propagation")pro=true});
-     }
-
-
     if(pro){
        m = L.shapeMarker(latlng, {
                 fillColor: color,
@@ -151,320 +144,19 @@ function pointToLayer(feature, latlng) {
     return m;
     //end neu                              
 }
-		  
-
-
-
-
-// https://www.npmjs.com/package/leaflet-svg-shape-markers
-
-///////////////////////////////////////popup////////////////////////////////////////
-
-
-function show_source(id) {
-        let theTeam = (this.getElementsByID("span").item(0)).innerHTML;
-        map._layers[id].fire('click');
-        var coords = map._layers[id]._latlng;
-        map.setView(coords);
-}; 
-
-function toggleDiv(el){
-	if(el.style.display=='none'){
-	    el.style.display='block';
-	}else{
-	    el.style.display='none';
-	}
-}
-
-
-// https://gis.stackexchange.com/questions/330608/leaflet-marker-popup-link-from-outside-of-map-dynamically
-
-
-function feature2content(feature){
-
-    let tags=feature.properties.tags;
-
-
-/////////////////////////////////////////////////////////////////
-//////////hier beginnt die Titel!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-///////////////////////////////////////////////////////////////////
-
-
-    
-
-    ///// geometry ///////////////////////    
-    let geometry='';
-
-    dnArray=feature.properties.tags["addr:full"].split(',').slice(1);
-    dnString=dnArray.join(', ');
-    let name=dnString+'<br>';
-
-    let loca=feature.properties.tags["addr:full"].split(',')[0];     
-    
-    if(tags["speierlingproject:gebiet"]){
-       loca+=" ("+tags["speierlingproject:gebiet"]+")";
-    }
-
-    geometry='<h5 style="margin-bottom:0px">'+loca+'</h5>'+name;
-
-/////////////////////////////////////////////////////////////////
-//////////hier beginnt die Tabelle!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-///////////////////////////////////////////////////////////////////
-
-    let portrait='<div style="float:left">';
-
-
-    portrait+='<table style="padding-top:10px;padding-bottom:10px" id="tabelle">';
-
-    let lon=feature.geometry.coordinates[0];
-    let lat=feature.geometry.coordinates[1];
-    portrait+='<tr><td style="text-align:right"><b>Position:</b></td><td><a href="geo:'+lat+','+lon+'">'+lat+','+lon+'</a></td></tr>';
-
-    if(tags.elevation){
-       portrait+='<tr><td style="text-align:right"><b>Elevation:</b></td><td> '+tags.elevation+' m</dt></tr>';
-    }
-
-    if(tags.circumference){
-	portrait+='<tr><td style="text-align:right"><b>Umfang:</b></td><td>'+tags.circumference+' m</td></tr>';
-    }
-
-    if(tags.diameter_crown){
-	portrait+='<tr><td style="text-align:right"><b>Kronenedurchmesser:</b></td><td>'+tags.diameter_crown+' m</td></tr>';
-    }
-    
-    if(tags.height){
-	portrait+='<tr><td style="text-align:right"><b>Höhe:</b></td><td>'+tags.height+' m</td></tr>';
-    }
-    
-    let typ;
-    let quelle='';
-
-    if(tags.propagation){
-        portrait+='<tr><td style="text-align:right"><b>Vermehrungstyp:</b></td><td>';
-	switch(tags.propagation){
-	    case 'natural':
-		typ='natürlich'
-		break;
-	    case 'sucker':
-		typ='natürlich (Wurzelbrut)'
-		break;
-	    case 'planted':
-		typ='gepflanzt';
-		break;
-	    case 'graft':
-		typ='gepflanzt (Reiser)';
-		quelle=''; 
-		break;
-	    case 'seed':
-		typ='gepflanzt (Samen)';
-		quelle=''; 
-		break;
-	    default:
-		typ='unbekannt';
-		break;
-       }
-       portrait+=typ+'</td></tr>';
-    }
-
-   if(feature.properties.parentFeature){
-        let parent=feature.properties.parentFeature;
-
-        let pOrt=parent.properties.project.Ort;
-        let pGebiet=parent.properties.project.Gebiet;
-        let pCoords=parent.geometry.coordinates;
-
-        portrait+='<tr><td style="text-align:right"><b>Herkunft:</b></td><td>'+
-	quelle+'<span style="color:rgb(0,120,168)" onclick="map.setView(L.latLng('+pCoords[1]+','+pCoords[0]+'))">'+pOrt+'/'+pGebiet+'</span>'+
-        //quelle+'<span style="color:rgb(0,120,168)" onclick="L.marker(L.latLng('+pCoords[1]+','+pCoords[0]+')).addTo(map);">'
-        //+pOrt+'/'+pGebiet+'</span>'+
-        '</td></tr>';
-   }
-
-
-
-   if(tags.start_date){
-             let a=2025-tags.start_date;
-	     portrait+='<tr><td style="text-align:right"><b>Pflanzjahr:</b></td><td>'+tags.start_date+'</td></tr>';
-	     portrait+='<tr><td style="text-align:right"><b>Alter:</b></td><td>'+a+' Jahre</td></tr>';
-             
-   } else{
-           if(tags.circumference){
-             let starter=Math.round(2024-tags.circumference*60*1.0);
-             let desc;
-             if(tags.propagation=="natural" || tags.propagation=="sucker"){
-                 desc="gesch.&nbsp;Keimjahr";
-             }else{
-                 desc="gesch.&nbsp;Pflanzjahr";
-             }   
-	     portrait+='<tr><td style="text-align:right"><b>'+desc+':</b></td><td>~ '+starter+'</td></tr>';
-           } 
-    } 
-
-    if(tags.circumference&&tags.start_date){
-       let a=2025-tags.start_date
-       let w=tags.circumference/a;
-       if(a>9){
-          w=Math.round(1000.0*w)/10;
-          portrait+='<tr><td style="text-align:right"><b>BHU-Wachstum:</b></td><td> '+w+' cm/a</td></tr>';
-       }
-    }
-
-    if(tags["speierlingproject:Fruechte"]){
-	portrait+='<tr><td style="text-align:right"><b>Früchte:</b></td><td>'+tags["speierlingproject:Fruechte"]+'</td></tr>';
-    }
-
-    portrait+='</table></div></br>';
-
-///////////////////////////////////////////////////////////////
-/////////////// karte //////////////////////////////////////
-/////////////////////////////////////////////////////////////
-   function wopen(){
-      window.open('https://openstreetmap.org/'+feature.id );
-   }
-
-    let mapid='karte'+feature.properties.id;
-
-    let mapurl='https://openstreetmap.org/'+feature.id;
-    let onclick=' onclick=window.open("'+mapurl+'") ';
-    let karte='<div '+onclick+'  id=\"'
-         + mapid
-        + '\" style=\"margin-left:20px;margin-bottom:20px;height:150px;width:150px;float:left\">';
-
-    
-
-/////////////////////////////////////////////////////////////////
-//////////hier beginnt die Bilder!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-///////////////////////////////////////////////////////////////////
-
-
-    ///// bilder //////
-    let pics='';
-
-    if(!feature.properties.media){
-        if(tags.image){
-          feature.properties.media={ "type": "mediaCollection", "pictures": [{ "picture": tags.image }] };    
-        }
-    }
-
-    let minWidth;
-    if(feature.properties.media){
-	pics='<p>';
-    	minWidth=300;
-	let id=feature.id;
-	let fpp=feature.properties.media.pictures;;
-	minWidth=fpp.length*105;
-	if(minWidth>420)minWidth=420;
-	pics='<div style="min-height:'+100*(Math.floor(fpp.length/5)+1)+'">\n';
-	for(let i=0;i<fpp.length;i++){
-	    let p=fpp[i];
-	    let l;
-	    if(i<100){
-                if(!p.thumb)p.thumb=p.picture;
-		l='<img style="width:100px;height:100px;object-fit:cover" src="'+p.thumb+'">';
-	    }else{
-		l='.';
-	    }	    
-	    pics+='<a href="'+p.picture+'" data-lightbox="1" data-title="'+"Titel"+'">'+l+'</a>\n';
-	}
-	pics+="</p>\n";
-    }
-
-/////////////////////////////////////////////////////////////////
-//////////hier beginnt die Osmdaten!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-///////////////////////////////////////////////////////////////////
-
-
-    ///// osm ///////
-    let osm='';
-    /*    
-    osm+='<p style="width:100%;text-align:right;padding-right:10px">';
-    if (feature.id) {
-        osm +='OSM: <a href="https://openstreetmap.org/'+feature.id+'">'+feature.id+'</a>';
-    }
-    if(tags.user){
-	osm+='&nbsp;&nbsp;<a href="https://www.openstreetmap.org/user/'+tags.user+'">user/'+tags.user+'</a>';
-    }
-    osm+="</p>";
-    */
-
-    ///// compose //////
-    let content='<div style="padding:5px;background:#eeeeee">'+geometry+'<div><span>'+portrait+'</span><span>'+karte+'</span></div><div style="clear:both"></div>'+pics+osm+'</div>';
-    
-    return content; 
-
-}
-
-function callback(data,event,feature){
-
-    media=JSON.parse(data);
-    if(media.type=="mediaCollection"){
-       feature.properties.media=media;
-    }
-    
-    let content=feature2content(feature);
-    event.popup.setContent(content);
-
-    let lon=feature.geometry.coordinates[0];
-    let lat=feature.geometry.coordinates[1];
-
-    let mapid='karte'+feature.properties.id;
-    var map = L.map(mapid, { zoomControl: false, 
-                             attributionControl: false,
-                             dragging: false,
-                             doubleClickZoom: 'center',
-                             scrollWheelZoom: false,
-                             renderer: L.canvas()
-                           }
-                   );
- 
-    map.setView([lat, lon], 15);
-
-    L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    maxZoom: 19,
-    attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>' 
-  }).addTo(map);
-
-    let color='black';
-    if(feature.properties.tags.propagation){
-       switch(feature.properties.tags.propagation){
-         case 'natural': color='green';break;
-         case 'sucker': color='yellow';break;
-         case 'planted': color='blue';break;
-         case 'seed': color='red';break;
-         case 'graft': color='orange';break;
-         case 'cutting': color='orange';break;
-         default: color='white';break;
-         }
-    }
-    
-    var circle = L.circle([lat, lon], {
-      color: color,
-      fillColor: color,
-      fillOpacity: 1.0,
-      radius: 10
-  }).addTo(map);    
-}
-
-function popupopen(event,feature){
-    if(feature.properties.tags.media){
-       httpGet(feature.properties.tags.media, (data) => { callback(data, event,feature)} );
-    }else{
-       let data="{}";
-       callback(data ,event,feature);
-    }
-}
-
 
 function onEachFeature(feature, layer) {
+
     //rohSet(tags+project);
 
-    let options={ maxWidth: 600, minWidth: 400, maxHeight: 400 };
-    let popup=L.popup(options); 
+    let options = { maxWidth: 700, minWidth: 500, maxHeight: 400 };
+    let popup = L.popup(options); 
 
+    // function popuopen is in popup.js
     layer
       .bindPopup(popup)
-      .on("popupopen", (event) => { popupopen(event, feature)});    
-      //.on("popupopen", (event) => {event.popup.setContent(feature2content(feature))});    
+      .on("popupopen", (event) => { popupopen(event, feature)} );    
+
 }
 
 
@@ -515,7 +207,7 @@ if(offline==true){
    }).addTo(map);
 }
 
-L.control.scale({imperial:false}).addTo(map);
+L.control.scale({imperial:false, maxWidth: 50}).addTo(map);
 
 var gps = new L.Control.Gps({
 		//autoActive:true,
@@ -607,6 +299,8 @@ function addGeojsonRect(responseText){
     rect.addTo(map);
 }
 
+///////////////////////////////////////////////////////////////////////////////////////////////
+
 /*
 function httpGet(theUrl, callback)
 {
@@ -629,110 +323,3 @@ httpGet('Sorbus_domestica_plg.geojson', addGeojsonDistri);
 
 httpGet('sorbusdomestica.geojson', addGeojsonLayer);
 
-
-
-/*
-    ///// bilder //////
-    let pics='';
-
-    let minWidth;
-    if(feature.properties.pictures){
-	pics='<p>';
-    	minWidth=300;
-	let id=feature.id;
-	let fpp=feature.properties.pictures;
-	minWidth=fpp.length*105;
-	if(minWidth>420)minWidth=420;
-	pics='<div style="min-height:'+100*(Math.floor(fpp.length/5)+1)+'">\n';
-	for(let i=0;i<fpp.length;i++){
-	    let p=fpp[i];
-	    let l;
-	    if(i<100){
-		l='<img width="100px" height="100px" src="'+id+'/thumbs/'+p+'">';
-	    }else{
-		l='.';
-	    }	    
-	    pics+='<a href="'+id+'/'+p+'" data-lightbox="1" data-title="'+p.split('.')[0]+'">'+l+'</a>\n';
-	}
-	pics+="</div></p>\n";
-    }
-*/
-
-
-/*   
-    //let circumference='';
-    //let height='';
-    //let diameter_crown='';
-    //let start_date='';
-
-    //let propagation=''; //new
-
-    //let Vermehrungstyp='';
-    //let Pflanzjahr='';
-    //let Herkunft='';
-    //let Fruechte='';
- 
-    //let Ort='';
-    //let Gebiet='';
-
-    //????????????????
-    //let id=feature.properties.id;
-    //layer._leaflet_id = id;
-
-
-
-    /////// project //////////
-    let location="";
-    let project="";
-    if (feature.properties.project) {
-	project='<p>';
-        location=feature.properties.project.Ort+', '+feature.properties.project.Gebiet;
-	let first=true;
-	for (const [key, value] of Object.entries(feature.properties.project)) {
-            //console.log(`${key}: ${value}`);
-		//if(key=='Vermehrungstyp'){Vermehrungstyp=value} // to be removed
-		//if(key=='Pflanzjahr'){Pflanzjahr=value}         // to be removed
-		//if(key=='Herkunft'){Herkunft=value}             // to be removed
-
-		//if(key=='Fruechte'){Fruechte=value}
-		//if(key=='Gebiet'){Gebiet=value}
-		//if(key=='Ort'){Ort=value}
-
-		//if(first){
-		//    project+="<b>"+key+":</b> "+value;
-		//    first=false;
-		//}else{
-		//    project+="<br><b>"+key+":</b> "+value;
-		//}
-        }
-	project+='</p>';
-    }
-
-    /////// tags /////////////////////////
-    let tag="";
-    if (feature.properties.tagssssssss) {
-	tag+='<p>';
-	let first=true;
-	for (const [key, value] of Object.entries(feature.properties.tags)) {
-            //console.log(`${key}: ${value}`);
-	    if( ! ( key == 'leaf_cycle' ||  key == 'leaf_type' || key == 'species' || key == 'species:de' || key == 'natural')){
-		if(key=='circumference'){
-		   if(value>5.0){
-		   	circumference=Math.round(value)/100.0;
-		   }else{
-			circumference=value;
-		   }
-		}
-		if(key=='height'){height=value}
-		if(key=='diameter_crown'){diameter_crown=value}
-		if(key=='start_date'){start_date=value}
-
-                //new tag propagation ////////////////////////////////////////////////////////
-
-                if(key=='propagation'){propagation=value}
-
-	    }
-        }
-	tag+='</p>';
-    }
-*/

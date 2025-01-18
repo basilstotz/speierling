@@ -114,15 +114,15 @@ button {
 
 
 <script>
-function httpGet(theUrl, callback)                                                                                                                    
-{                                                                                                                                                     
-    var xmlHttp = new XMLHttpRequest();                                                                                                               
-    xmlHttp.onreadystatechange = function() {                                                                                                         
-        if (xmlHttp.readyState == 4 && xmlHttp.status == 200)                                                                                         
-            callback(xmlHttp.responseText);                                                                                                           
-    }                                                                                                                                                 
-    xmlHttp.open("GET", theUrl, true); // true for asynchronous                                                                                       
-    xmlHttp.send(null);                                                                                                                               
+function httpGet(theUrl, callback)
+{
+    var xmlHttp = new XMLHttpRequest();
+    xmlHttp.onreadystatechange = function() {
+        if (xmlHttp.readyState == 4 && xmlHttp.status == 200)
+            callback(xmlHttp.responseText);
+    }
+    xmlHttp.open("GET", theUrl, true); // true for asynchronous
+    xmlHttp.send(null);
 }
 </script>
 
@@ -130,7 +130,7 @@ function httpGet(theUrl, callback)
 
 <script>
 	function myfunc(){
-		document.getElementById("link").href = "karte_devel.html";
+		document.getElementById("link").href = "karte.html";
 	}
 </script>
 
@@ -225,6 +225,8 @@ httpGet('sorbusdomestica.geojson', (text) => {
                               break;
                     case "sucker": stats.natural++;
                               break;
+                    case "planted": 
+		               break;
                     case "graft": stats.plantation++
 		               break;
                     case "seed": stats.plantation++
@@ -234,7 +236,11 @@ httpGet('sorbusdomestica.geojson', (text) => {
                  }
              }
           }
-         if(item.properties.pictures)stats.pics+=item.properties.pictures.length;
+          if(item.properties.pictures){
+	      stats.pics+=item.properties.pictures.length
+	  }else if(item.properties.tags["meta:media_size"]){
+	      stats.pics+=item.properties.tags["meta:media_size"]
+	  }
       }
 
 

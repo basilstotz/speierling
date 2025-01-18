@@ -1051,14 +1051,15 @@
           "leaf_type": "broadleaved",
           "natural": "tree",
           "note": "data: November 2023, circumference estimated",
+          "propagation": "natural",
           "species": "Sorbus domestica",
           "species:de": "Speierling"
         },
         "relations": [],
         "meta": {
-          "timestamp": "2023-11-03T10:42:05Z",
-          "version": "1",
-          "changeset": "143568219",
+          "timestamp": "2025-01-05T00:07:55Z",
+          "version": "2",
+          "changeset": "161005967",
           "user": "martindick56",
           "uid": "2814669"
         },
@@ -1860,14 +1861,15 @@
           "leaf_type": "broadleaved",
           "natural": "tree",
           "note": "data: September 2023, circumference estimated",
+          "propagation": "natural",
           "species": "Sorbus domestica",
           "species:de": "Speierling"
         },
         "relations": [],
         "meta": {
-          "timestamp": "2023-09-19T20:27:15Z",
-          "version": "3",
-          "changeset": "141485104",
+          "timestamp": "2025-01-05T00:04:20Z",
+          "version": "4",
+          "changeset": "161005892",
           "user": "martindick56",
           "uid": "2814669"
         },
@@ -1905,14 +1907,15 @@
           "leaf_type": "broadleaved",
           "natural": "tree",
           "note": "data: September 2023",
+          "propagation": "natural",
           "species": "Sorbus domestica",
           "species:de": "Speierling"
         },
         "relations": [],
         "meta": {
-          "timestamp": "2023-09-04T13:22:17Z",
-          "version": "2",
-          "changeset": "140805519",
+          "timestamp": "2025-01-04T23:57:00Z",
+          "version": "3",
+          "changeset": "161005735",
           "user": "martindick56",
           "uid": "2814669"
         },
@@ -1950,14 +1953,15 @@
           "leaf_type": "broadleaved",
           "natural": "tree",
           "note": "data: September 2023",
+          "propagation": "natural",
           "species": "Sorbus domestica",
           "species:de": "Speierling"
         },
         "relations": [],
         "meta": {
-          "timestamp": "2023-09-04T12:47:13Z",
-          "version": "2",
-          "changeset": "140803659",
+          "timestamp": "2025-01-04T23:52:39Z",
+          "version": "3",
+          "changeset": "161005660",
           "user": "martindick56",
           "uid": "2814669"
         },
@@ -1995,14 +1999,15 @@
           "leaf_type": "broadleaved",
           "natural": "tree",
           "note": "data: September 2023",
+          "propagation": "natural",
           "species": "Sorbus domestica",
           "species:de": "Speierling"
         },
         "relations": [],
         "meta": {
-          "timestamp": "2023-09-04T14:15:31Z",
-          "version": "2",
-          "changeset": "140808069",
+          "timestamp": "2025-01-05T00:00:42Z",
+          "version": "3",
+          "changeset": "161005824",
           "user": "martindick56",
           "uid": "2814669"
         },
@@ -2040,14 +2045,15 @@
           "leaf_type": "broadleaved",
           "natural": "tree",
           "note": "data: September 2023, circumference estimated",
+          "propagation": "planted",
           "species": "Sorbus domestica",
           "species:de": "Speierling"
         },
         "relations": [],
         "meta": {
-          "timestamp": "2023-09-19T20:29:46Z",
-          "version": "3",
-          "changeset": "141485164",
+          "timestamp": "2025-01-05T00:05:59Z",
+          "version": "4",
+          "changeset": "161005923",
           "user": "martindick56",
           "uid": "2814669"
         },
@@ -2085,14 +2091,15 @@
           "leaf_type": "broadleaved",
           "natural": "tree",
           "note": "data: September 2023, several trees",
+          "propagation": "natural",
           "species": "Sorbus domestica",
           "species:de": "Speierling"
         },
         "relations": [],
         "meta": {
-          "timestamp": "2023-09-04T13:29:21Z",
-          "version": "2",
-          "changeset": "140805829",
+          "timestamp": "2025-01-04T23:58:16Z",
+          "version": "3",
+          "changeset": "161005785",
           "user": "martindick56",
           "uid": "2814669"
         },
@@ -2130,14 +2137,15 @@
           "leaf_type": "broadleaved",
           "natural": "tree",
           "note": "data: September 2023",
+          "propagation": "natural",
           "species": "Sorbus domestica",
           "species:de": "Speierling"
         },
         "relations": [],
         "meta": {
-          "timestamp": "2023-09-04T14:18:56Z",
-          "version": "2",
-          "changeset": "140808211",
+          "timestamp": "2025-01-05T00:00:42Z",
+          "version": "3",
+          "changeset": "161005824",
           "user": "martindick56",
           "uid": "2814669"
         },
@@ -4329,7 +4337,7 @@
         "type": "node",
         "id": "1676933505",
         "tags": {
-          "circumference": "2.08",
+          "circumference": "2.21",
           "denotation": "natural_monument",
           "leaf_cycle": "deciduous",
           "leaf_type": "broadleaved",
@@ -4337,13 +4345,14 @@
           "note": "data: December 2018 circumference 2011: 197cm; zweistämmig, ein Stamm abgebrochen (April 2019)",
           "propagation": "natural",
           "species": "Sorbus domestica",
-          "species:de": "Speierling"
+          "species:de": "Speierling",
+          "survey:date": "2025-01-17"
         },
         "relations": [],
         "meta": {
-          "timestamp": "2024-12-28T10:04:31Z",
-          "version": "7",
-          "changeset": "160706377",
+          "timestamp": "2025-01-17T15:48:26Z",
+          "version": "8",
+          "changeset": "161461079",
           "user": "martindick56",
           "uid": "2814669"
         },
@@ -7781,19 +7790,26 @@
           "denotation": "natural_monument",
           "leaf_cycle": "deciduous",
           "leaf_type": "broadleaved",
+          "media": "https://speierling.arglos.ch/node/6158654814/media.json",
           "natural": "tree",
-          "note": "circumference December 2018: 0.89m (M. Dick) circumference 2011: 0.79m (H. Polt)\nAug. 2019: visible fruits",
+          "note": "circumference December 2018: 0.89m (M. Dick) circumference 2011: 0.79m (H. Polt) Aug. 2019: visible fruits",
           "propagation": "planted",
           "species": "Sorbus domestica",
-          "species:de": "Speierling"
+          "species:de": "Speierling",
+          "speierlingproject": "yes",
+          "speierlingproject:bemerkung": "Pflanzung um 1971 - deutsches Pflanzgut",
+          "speierlingproject:datum": "Dezember 2018",
+          "speierlingproject:fruechte": "viele Fruechte 2019 - 2020",
+          "speierlingproject:gebiet": "WartenbergWest",
+          "speierlingproject:hauptinfo": "Infoflora 10471350+15091576 Niederer Markus 3358627+3344545+3351437 Polt Heidi "
         },
         "relations": [],
         "meta": {
-          "timestamp": "2024-12-28T12:26:32Z",
-          "version": "7",
-          "changeset": "160711470",
-          "user": "martindick56",
-          "uid": "2814669"
+          "timestamp": "2025-01-07T18:50:16Z",
+          "version": "8",
+          "changeset": "161107273",
+          "user": "bstotz",
+          "uid": "1026237"
         },
         "nominatim": {
           "address": {
@@ -7917,23 +7933,25 @@
         "type": "node",
         "id": "6166873274",
         "tags": {
-          "circumference": "1.30",
+          "circumference": "1.39",
           "denotation": "natural_monument",
           "leaf_cycle": "deciduous",
           "leaf_type": "broadleaved",
+          "maintenance": "tree inspection",
           "natural": "tree",
           "note": "September 2019: no fruits, August 2020 with fruits\ncircumference December 2018: 1.3m\ncircumference 2011: 127cm (H. Polt) \ndiameter ca. 1955: 35cm (W. Plattner NGBL)",
           "propagation": "natural",
           "species": "Sorbus domestica",
-          "species:de": "Speierling"
+          "species:de": "Speierling",
+          "survey:date": "2025-01-17"
         },
         "relations": [],
         "meta": {
-          "timestamp": "2024-12-25T23:42:39Z",
-          "version": "8",
-          "changeset": "160619544",
-          "user": "bstotz",
-          "uid": "1026237"
+          "timestamp": "2025-01-17T15:57:29Z",
+          "version": "9",
+          "changeset": "161461383",
+          "user": "martindick56",
+          "uid": "2814669"
         },
         "nominatim": {
           "address": {
@@ -9455,7 +9473,6 @@
         "type": "node",
         "id": "6311735264",
         "tags": {
-          "amenity": "restaurant",
           "circumference": "0.65",
           "denotation": "urban",
           "leaf_cycle": "deciduous",
@@ -9471,9 +9488,9 @@
         },
         "relations": [],
         "meta": {
-          "timestamp": "2025-01-02T18:37:15Z",
-          "version": "7",
-          "changeset": "160921155",
+          "timestamp": "2025-01-10T12:49:28Z",
+          "version": "8",
+          "changeset": "161204207",
           "user": "bstotz",
           "uid": "1026237"
         },
@@ -58904,22 +58921,24 @@
         "id": "11336752968",
         "tags": {
           "circumference": "0.03",
+          "height": "0.5",
           "leaf_cycle": "deciduous",
           "leaf_type": "broadleaved",
           "natural": "tree",
-          "note": "data: November 2023, tree group",
+          "note": "data: January 2025",
           "propagation": "seed",
+          "source": "Arlesheim Spitalholz Süd",
           "species": "Sorbus domestica",
           "species:de": "Speierling",
           "start_date": "2023"
         },
         "relations": [],
         "meta": {
-          "timestamp": "2024-12-29T21:16:28Z",
-          "version": "4",
-          "changeset": "160768251",
-          "user": "bstotz",
-          "uid": "1026237"
+          "timestamp": "2025-01-07T22:24:52Z",
+          "version": "6",
+          "changeset": "161113382",
+          "user": "martindick56",
+          "uid": "2814669"
         },
         "nominatim": {
           "address": {
@@ -58937,8 +58956,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          7.6375753,
-          47.4880957,
+          7.6376,
+          47.4881999,
           738.2459106445312
         ]
       }
@@ -64055,17 +64074,17 @@
           "leaf_type": "broadleaved",
           "natural": "tree",
           "note": "data: February 2024, Neupflanzung 2024,\nnebenliegender Baum von 1995 ist abgestorben",
-          "propagation": "planted",
-          "source": "Sossenheimer",
+          "propagation": "seed",
+          "source": "Arlesheim Chilchholz Gipfel Mitte",
           "species": "Sorbus domestica",
           "species:de": "Speierling",
           "start_date": "2024"
         },
         "relations": [],
         "meta": {
-          "timestamp": "2024-12-29T11:07:46Z",
-          "version": "4",
-          "changeset": "160744953",
+          "timestamp": "2025-01-06T13:37:14Z",
+          "version": "5",
+          "changeset": "161058276",
           "user": "martindick56",
           "uid": "2814669"
         },
@@ -64103,16 +64122,16 @@
           "leaf_type": "broadleaved",
           "natural": "tree",
           "note": "data: February 2024",
-          "propagation": "planted",
+          "propagation": "graft",
           "source": "Sossenheimer",
           "species": "Sorbus domestica",
           "species:de": "Speierling"
         },
         "relations": [],
         "meta": {
-          "timestamp": "2024-12-29T11:03:05Z",
-          "version": "2",
-          "changeset": "160744798",
+          "timestamp": "2025-01-06T13:37:14Z",
+          "version": "3",
+          "changeset": "161058276",
           "user": "martindick56",
           "uid": "2814669"
         },
@@ -64150,16 +64169,16 @@
           "leaf_type": "broadleaved",
           "natural": "tree",
           "note": "data: February 2024",
-          "propagation": "planted",
+          "propagation": "graft",
           "source": "Sossenheimer",
           "species": "Sorbus domestica",
           "species:de": "Speierling"
         },
         "relations": [],
         "meta": {
-          "timestamp": "2024-12-29T11:07:46Z",
-          "version": "2",
-          "changeset": "160744953",
+          "timestamp": "2025-01-06T13:37:14Z",
+          "version": "3",
+          "changeset": "161058276",
           "user": "martindick56",
           "uid": "2814669"
         },
@@ -64197,16 +64216,16 @@
           "leaf_type": "broadleaved",
           "natural": "tree",
           "note": "data: February 2024",
-          "propagation": "planted",
+          "propagation": "graft",
           "source": "Sossenheimer",
           "species": "Sorbus domestica",
           "species:de": "Speierling"
         },
         "relations": [],
         "meta": {
-          "timestamp": "2024-12-29T11:03:05Z",
-          "version": "2",
-          "changeset": "160744798",
+          "timestamp": "2025-01-06T13:37:14Z",
+          "version": "3",
+          "changeset": "161058276",
           "user": "martindick56",
           "uid": "2814669"
         },
@@ -64244,16 +64263,16 @@
           "leaf_type": "broadleaved",
           "natural": "tree",
           "note": "data: February 2024",
-          "propagation": "planted",
+          "propagation": "graft",
           "source": "Sossenheimer",
           "species": "Sorbus domestica",
           "species:de": "Speierling"
         },
         "relations": [],
         "meta": {
-          "timestamp": "2024-12-29T11:03:05Z",
-          "version": "2",
-          "changeset": "160744798",
+          "timestamp": "2025-01-06T13:37:14Z",
+          "version": "3",
+          "changeset": "161058276",
           "user": "martindick56",
           "uid": "2814669"
         },
@@ -64291,16 +64310,16 @@
           "leaf_type": "broadleaved",
           "natural": "tree",
           "note": "data: February 2024",
-          "propagation": "planted",
+          "propagation": "graft",
           "source": "Sossenheimer",
           "species": "Sorbus domestica",
           "species:de": "Speierling"
         },
         "relations": [],
         "meta": {
-          "timestamp": "2024-12-29T11:07:46Z",
-          "version": "2",
-          "changeset": "160744953",
+          "timestamp": "2025-01-06T13:37:14Z",
+          "version": "3",
+          "changeset": "161058276",
           "user": "martindick56",
           "uid": "2814669"
         },
@@ -64338,16 +64357,16 @@
           "leaf_type": "broadleaved",
           "natural": "tree",
           "note": "data: February 2024",
-          "propagation": "planted",
+          "propagation": "graft",
           "source": "Sossenheimer",
           "species": "Sorbus domestica",
           "species:de": "Speierling"
         },
         "relations": [],
         "meta": {
-          "timestamp": "2024-12-29T11:07:46Z",
-          "version": "2",
-          "changeset": "160744953",
+          "timestamp": "2025-01-06T13:37:14Z",
+          "version": "3",
+          "changeset": "161058276",
           "user": "martindick56",
           "uid": "2814669"
         },
@@ -64385,17 +64404,17 @@
           "leaf_type": "broadleaved",
           "natural": "tree",
           "note": "data: February 2024",
-          "propagation": "planted",
-          "source": "Sossenheimer",
+          "propagation": "seed",
+          "source": "Céligny",
           "species": "Sorbus domestica",
           "species:de": "Speierling",
           "start_date": "1995"
         },
         "relations": [],
         "meta": {
-          "timestamp": "2024-12-29T11:07:46Z",
-          "version": "2",
-          "changeset": "160744953",
+          "timestamp": "2025-01-06T13:37:14Z",
+          "version": "3",
+          "changeset": "161058276",
           "user": "martindick56",
           "uid": "2814669"
         },
@@ -75168,53 +75187,6 @@
     },
     {
       "type": "Feature",
-      "id": "node/12087106074",
-      "properties": {
-        "type": "node",
-        "id": "12087106074",
-        "tags": {
-          "denotation": "urban",
-          "leaf_cycle": "deciduous",
-          "leaf_type": "broadleaved",
-          "natural": "tree",
-          "note": "data: July 2024",
-          "propagation": "planted",
-          "source": "Baumkataster ZH WI-1931",
-          "species": "Sorbus domestica",
-          "species:de": "Speierling",
-          "start_date": "1990"
-        },
-        "relations": [],
-        "meta": {
-          "timestamp": "2025-01-02T14:36:00Z",
-          "version": "2",
-          "changeset": "160909989",
-          "user": "martindick56",
-          "uid": "2814669"
-        },
-        "nominatim": {
-          "address": {
-            "city": "Zürich",
-            "county": "Bezirk Zürich",
-            "state": "Zürich",
-            "ISO3166-2-lvl4": "CH-ZH",
-            "country": "Schweiz/Suisse/Svizzera/Svizra",
-            "country_code": "ch"
-          },
-          "display_name": "Zürich, Bezirk Zürich, Zürich, Schweiz/Suisse/Svizzera/Svizra"
-        }
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          8.5935861,
-          47.3618381,
-          1501.3968505859375
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "node/12087106075",
       "properties": {
         "type": "node",
@@ -76811,52 +76783,6 @@
     },
     {
       "type": "Feature",
-      "id": "node/12097291402",
-      "properties": {
-        "type": "node",
-        "id": "12097291402",
-        "tags": {
-          "circumference": "0.73",
-          "leaf_cycle": "deciduous",
-          "leaf_type": "broadleaved",
-          "natural": "tree",
-          "note": "data: August 2024",
-          "propagation": "planted",
-          "species": "Sorbus domestica",
-          "species:de": "Speierling"
-        },
-        "relations": [],
-        "meta": {
-          "timestamp": "2024-12-26T15:59:08Z",
-          "version": "2",
-          "changeset": "160643675",
-          "user": "martindick56",
-          "uid": "2814669"
-        },
-        "nominatim": {
-          "address": {
-            "village": "Beinwil (Freiamt)",
-            "county": "Bezirk Muri",
-            "state": "Aargau",
-            "ISO3166-2-lvl4": "CH-AG",
-            "postcode": "5637",
-            "country": "Schweiz/Suisse/Svizzera/Svizra",
-            "country_code": "ch"
-          },
-          "display_name": "Beinwil (Freiamt), Bezirk Muri, Aargau, 5637, Schweiz/Suisse/Svizzera/Svizra"
-        }
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          8.3497929,
-          47.2323516,
-          1350.762451171875
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "node/12097344368",
       "properties": {
         "type": "node",
@@ -78129,19 +78055,25 @@
         "type": "node",
         "id": "12110265491",
         "tags": {
+          "circumference": "0.06",
+          "height": "2.5",
           "leaf_cycle": "deciduous",
           "leaf_type": "broadleaved",
+          "maintenance": "documentation",
           "natural": "tree",
+          "note": "data: January 2025",
           "propagation": "planted",
           "source": "infoflora  3033822",
           "species": "Sorbus domestica",
-          "species:de": "Speierling"
+          "species:de": "Speierling",
+          "start_date": "2003",
+          "survey:date": "2025-01-17"
         },
         "relations": [],
         "meta": {
-          "timestamp": "2025-01-01T13:55:40Z",
-          "version": "2",
-          "changeset": "160863957",
+          "timestamp": "2025-01-17T11:59:30Z",
+          "version": "3",
+          "changeset": "161452512",
           "user": "martindick56",
           "uid": "2814669"
         },
@@ -78221,17 +78153,21 @@
         "tags": {
           "leaf_cycle": "deciduous",
           "leaf_type": "broadleaved",
+          "maintenance": "documentation",
           "natural": "tree",
+          "note": "data: January 2025, tree is probably dead",
           "propagation": "planted",
           "source": "infoflora  14555188",
           "species": "Sorbus domestica",
-          "species:de": "Stiel-Eiche"
+          "species:de": "Speierling",
+          "start_date": "2003",
+          "survey:date": "2025-01-17"
         },
         "relations": [],
         "meta": {
-          "timestamp": "2025-01-01T13:55:40Z",
-          "version": "2",
-          "changeset": "160863957",
+          "timestamp": "2025-01-17T12:06:07Z",
+          "version": "3",
+          "changeset": "161452736",
           "user": "martindick56",
           "uid": "2814669"
         },
@@ -84627,19 +84563,21 @@
         "type": "node",
         "id": "12437547724",
         "tags": {
+          "circumference": "0.06",
+          "height": "2.35",
           "leaf_cycle": "deciduous",
           "leaf_type": "broadleaved",
           "natural": "tree",
-          "note": "data: December 2024",
+          "note": "data: January 2025",
           "propagation": "planted",
           "species": "Sorbus domestica",
           "species:de": "Speierling"
         },
         "relations": [],
         "meta": {
-          "timestamp": "2024-12-27T21:31:04Z",
-          "version": "2",
-          "changeset": "160693474",
+          "timestamp": "2025-01-10T13:29:36Z",
+          "version": "3",
+          "changeset": "161205641",
           "user": "martindick56",
           "uid": "2814669"
         },
@@ -84667,69 +84605,25 @@
     },
     {
       "type": "Feature",
-      "id": "node/12437547733",
-      "properties": {
-        "type": "node",
-        "id": "12437547733",
-        "tags": {
-          "leaf_cycle": "deciduous",
-          "leaf_type": "broadleaved",
-          "natural": "tree",
-          "note": "data: December 2024",
-          "propagation": "planted",
-          "species": "Sorbus domestica",
-          "species:de": "Speierling"
-        },
-        "relations": [],
-        "meta": {
-          "timestamp": "2024-12-27T21:31:04Z",
-          "version": "2",
-          "changeset": "160693474",
-          "user": "martindick56",
-          "uid": "2814669"
-        },
-        "nominatim": {
-          "address": {
-            "village": "Ettingen",
-            "county": "Bezirk Arlesheim",
-            "state": "Basel-Landschaft",
-            "ISO3166-2-lvl4": "CH-BL",
-            "postcode": "4107",
-            "country": "Schweiz/Suisse/Svizzera/Svizra",
-            "country_code": "ch"
-          },
-          "display_name": "Ettingen, Bezirk Arlesheim, Basel-Landschaft, 4107, Schweiz/Suisse/Svizzera/Svizra"
-        }
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          7.53066,
-          47.47747,
-          722.1015625
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "node/12437577382",
       "properties": {
         "type": "node",
         "id": "12437577382",
         "tags": {
+          "circumference": "0.28",
           "leaf_cycle": "deciduous",
           "leaf_type": "broadleaved",
           "natural": "tree",
-          "note": "data: December 2024",
+          "note": "data: January 2025",
           "propagation": "planted",
           "species": "Sorbus domestica",
           "species:de": "Speierling"
         },
         "relations": [],
         "meta": {
-          "timestamp": "2024-12-27T21:31:04Z",
-          "version": "2",
-          "changeset": "160693474",
+          "timestamp": "2025-01-10T14:02:55Z",
+          "version": "3",
+          "changeset": "161206830",
           "user": "martindick56",
           "uid": "2814669"
         },
@@ -84749,8 +84643,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          7.53224,
-          47.47754,
+          7.5322201,
+          47.4774299,
           722.355224609375
         ]
       }
@@ -84762,19 +84656,21 @@
         "type": "node",
         "id": "12437579122",
         "tags": {
+          "circumference": "0.03",
+          "height": "1.00",
           "leaf_cycle": "deciduous",
           "leaf_type": "broadleaved",
           "natural": "tree",
-          "note": "data: December 2024",
+          "note": "data: January 2025",
           "propagation": "planted",
           "species": "Sorbus domestica",
           "species:de": "Speierling"
         },
         "relations": [],
         "meta": {
-          "timestamp": "2024-12-27T21:31:04Z",
-          "version": "2",
-          "changeset": "160693474",
+          "timestamp": "2025-01-10T15:14:32Z",
+          "version": "5",
+          "changeset": "161209454",
           "user": "martindick56",
           "uid": "2814669"
         },
@@ -84794,8 +84690,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          7.53061,
-          47.47745,
+          7.5306001,
+          47.4774699,
           722.0936889648438
         ]
       }
@@ -84807,19 +84703,20 @@
         "type": "node",
         "id": "12437587369",
         "tags": {
+          "height": "1.1",
           "leaf_cycle": "deciduous",
           "leaf_type": "broadleaved",
           "natural": "tree",
-          "note": "data: December 2024",
+          "note": "data: January 2025",
           "propagation": "planted",
           "species": "Sorbus domestica",
           "species:de": "Speierling"
         },
         "relations": [],
         "meta": {
-          "timestamp": "2024-12-27T21:31:04Z",
-          "version": "2",
-          "changeset": "160693474",
+          "timestamp": "2025-01-10T15:54:45Z",
+          "version": "3",
+          "changeset": "161211026",
           "user": "martindick56",
           "uid": "2814669"
         },
@@ -84852,19 +84749,21 @@
         "type": "node",
         "id": "12437590238",
         "tags": {
+          "circumference": "0.03",
+          "height": "1.05",
           "leaf_cycle": "deciduous",
           "leaf_type": "broadleaved",
           "natural": "tree",
-          "note": "data: December 2024",
+          "note": "data: January 2025",
           "propagation": "planted",
           "species": "Sorbus domestica",
           "species:de": "Speierling"
         },
         "relations": [],
         "meta": {
-          "timestamp": "2024-12-27T21:31:04Z",
-          "version": "2",
-          "changeset": "160693474",
+          "timestamp": "2025-01-10T15:14:32Z",
+          "version": "4",
+          "changeset": "161209454",
           "user": "martindick56",
           "uid": "2814669"
         },
@@ -84884,99 +84783,9 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          7.53066,
-          47.47757,
+          7.5306101,
+          47.4775499,
           722.1004638671875
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "node/12437593562",
-      "properties": {
-        "type": "node",
-        "id": "12437593562",
-        "tags": {
-          "leaf_cycle": "deciduous",
-          "leaf_type": "broadleaved",
-          "natural": "tree",
-          "note": "data: December 2024",
-          "propagation": "planted",
-          "species": "Sorbus domestica",
-          "species:de": "Speierling"
-        },
-        "relations": [],
-        "meta": {
-          "timestamp": "2024-12-27T21:31:04Z",
-          "version": "2",
-          "changeset": "160693474",
-          "user": "martindick56",
-          "uid": "2814669"
-        },
-        "nominatim": {
-          "address": {
-            "village": "Ettingen",
-            "county": "Bezirk Arlesheim",
-            "state": "Basel-Landschaft",
-            "ISO3166-2-lvl4": "CH-BL",
-            "postcode": "4107",
-            "country": "Schweiz/Suisse/Svizzera/Svizra",
-            "country_code": "ch"
-          },
-          "display_name": "Ettingen, Bezirk Arlesheim, Basel-Landschaft, 4107, Schweiz/Suisse/Svizzera/Svizra"
-        }
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          7.53038,
-          47.47748,
-          722.0563354492188
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "node/12437593647",
-      "properties": {
-        "type": "node",
-        "id": "12437593647",
-        "tags": {
-          "leaf_cycle": "deciduous",
-          "leaf_type": "broadleaved",
-          "natural": "tree",
-          "note": "data: December 2024",
-          "propagation": "planted",
-          "species": "Sorbus domestica",
-          "species:de": "Speierling"
-        },
-        "relations": [],
-        "meta": {
-          "timestamp": "2024-12-27T21:31:04Z",
-          "version": "2",
-          "changeset": "160693474",
-          "user": "martindick56",
-          "uid": "2814669"
-        },
-        "nominatim": {
-          "address": {
-            "village": "Ettingen",
-            "county": "Bezirk Arlesheim",
-            "state": "Basel-Landschaft",
-            "ISO3166-2-lvl4": "CH-BL",
-            "postcode": "4107",
-            "country": "Schweiz/Suisse/Svizzera/Svizra",
-            "country_code": "ch"
-          },
-          "display_name": "Ettingen, Bezirk Arlesheim, Basel-Landschaft, 4107, Schweiz/Suisse/Svizzera/Svizra"
-        }
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          7.53014,
-          47.47743,
-          722.0181884765625
         ]
       }
     },
@@ -84987,20 +84796,20 @@
         "type": "node",
         "id": "12437593890",
         "tags": {
-          "circumference": "0.235",
+          "circumference": "0.23",
           "leaf_cycle": "deciduous",
           "leaf_type": "broadleaved",
           "natural": "tree",
-          "note": "data: December 2024",
+          "note": "data: January 2024",
           "propagation": "planted",
           "species": "Sorbus domestica",
           "species:de": "Speierling"
         },
         "relations": [],
         "meta": {
-          "timestamp": "2024-12-27T21:31:04Z",
-          "version": "2",
-          "changeset": "160693474",
+          "timestamp": "2025-01-10T16:26:19Z",
+          "version": "4",
+          "changeset": "161212250",
           "user": "martindick56",
           "uid": "2814669"
         },
@@ -85028,115 +84837,25 @@
     },
     {
       "type": "Feature",
-      "id": "node/12437596431",
-      "properties": {
-        "type": "node",
-        "id": "12437596431",
-        "tags": {
-          "leaf_cycle": "deciduous",
-          "leaf_type": "broadleaved",
-          "natural": "tree",
-          "note": "data: December 2024",
-          "propagation": "planted",
-          "species": "Sorbus domestica",
-          "species:de": "Speierling"
-        },
-        "relations": [],
-        "meta": {
-          "timestamp": "2024-12-27T21:31:04Z",
-          "version": "2",
-          "changeset": "160693474",
-          "user": "martindick56",
-          "uid": "2814669"
-        },
-        "nominatim": {
-          "address": {
-            "village": "Ettingen",
-            "county": "Bezirk Arlesheim",
-            "state": "Basel-Landschaft",
-            "ISO3166-2-lvl4": "CH-BL",
-            "postcode": "4107",
-            "country": "Schweiz/Suisse/Svizzera/Svizra",
-            "country_code": "ch"
-          },
-          "display_name": "Ettingen, Bezirk Arlesheim, Basel-Landschaft, 4107, Schweiz/Suisse/Svizzera/Svizra"
-        }
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          7.53038,
-          47.47755,
-          722.0555419921875
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "node/12437607205",
-      "properties": {
-        "type": "node",
-        "id": "12437607205",
-        "tags": {
-          "leaf_cycle": "deciduous",
-          "leaf_type": "broadleaved",
-          "natural": "tree",
-          "note": "data: December 2024",
-          "propagation": "planted",
-          "species": "Sorbus domestica",
-          "species:de": "Speierling"
-        },
-        "relations": [],
-        "meta": {
-          "timestamp": "2024-12-27T21:31:04Z",
-          "version": "2",
-          "changeset": "160693474",
-          "user": "martindick56",
-          "uid": "2814669"
-        },
-        "nominatim": {
-          "address": {
-            "village": "Ettingen",
-            "county": "Bezirk Arlesheim",
-            "state": "Basel-Landschaft",
-            "ISO3166-2-lvl4": "CH-BL",
-            "postcode": "4107",
-            "country": "Schweiz/Suisse/Svizzera/Svizra",
-            "country_code": "ch"
-          },
-          "display_name": "Ettingen, Bezirk Arlesheim, Basel-Landschaft, 4107, Schweiz/Suisse/Svizzera/Svizra"
-        }
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          7.53006,
-          47.4774,
-          722.005615234375
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "node/12437623523",
       "properties": {
         "type": "node",
         "id": "12437623523",
         "tags": {
-          "circumference": "0.225",
+          "circumference": "0.22",
           "leaf_cycle": "deciduous",
           "leaf_type": "broadleaved",
           "natural": "tree",
-          "note": "data: December 2024",
+          "note": "data: January 2025",
           "propagation": "planted",
           "species": "Sorbus domestica",
           "species:de": "Speierling"
         },
         "relations": [],
         "meta": {
-          "timestamp": "2024-12-27T21:31:04Z",
-          "version": "2",
-          "changeset": "160693474",
+          "timestamp": "2025-01-10T15:21:51Z",
+          "version": "4",
+          "changeset": "161209746",
           "user": "martindick56",
           "uid": "2814669"
         },
@@ -85156,8 +84875,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          7.52896,
-          47.47726,
+          7.5289391,
+          47.4772129,
           721.8296508789062
         ]
       }
@@ -85169,7 +84888,7 @@
         "type": "node",
         "id": "12437650838",
         "tags": {
-          "circumference": "0.62",
+          "circumference": "0.57",
           "leaf_cycle": "deciduous",
           "leaf_type": "broadleaved",
           "natural": "tree",
@@ -85180,9 +84899,9 @@
         },
         "relations": [],
         "meta": {
-          "timestamp": "2024-12-27T21:25:53Z",
-          "version": "2",
-          "changeset": "160693344",
+          "timestamp": "2025-01-09T22:25:48Z",
+          "version": "4",
+          "changeset": "161186563",
           "user": "martindick56",
           "uid": "2814669"
         },
@@ -85202,8 +84921,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          7.54428,
-          47.48512,
+          7.5443091,
+          47.485157,
           724.123291015625
         ]
       }
@@ -85262,19 +84981,20 @@
         "id": "12439574112",
         "tags": {
           "circumference": "0.03",
+          "height": "0.9",
           "leaf_cycle": "deciduous",
           "leaf_type": "broadleaved",
           "natural": "tree",
-          "note": "data: December 2024",
+          "note": "data: January 2025",
           "propagation": "planted",
           "species": "Sorbus domestica",
           "species:de": "Speierling"
         },
         "relations": [],
         "meta": {
-          "timestamp": "2024-12-29T16:24:06Z",
-          "version": "2",
-          "changeset": "160757341",
+          "timestamp": "2025-01-10T16:50:14Z",
+          "version": "5",
+          "changeset": "161213111",
           "user": "martindick56",
           "uid": "2814669"
         },
@@ -85295,8 +85015,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          7.480321,
-          47.479033,
+          7.4805602,
+          47.4784589,
           714.0411987304688
         ]
       }
@@ -86136,6 +85856,1149 @@
     },
     {
       "type": "Feature",
+      "id": "node/12481831047",
+      "properties": {
+        "type": "node",
+        "id": "12481831047",
+        "tags": {
+          "circumference": "0.03",
+          "height": "0.35",
+          "leaf_cycle": "deciduous",
+          "leaf_type": "broadleaved",
+          "natural": "tree",
+          "note": "data: January 2025",
+          "propagation": "seed",
+          "source": "Arlesheim Chilchholz Gipfel Mitte",
+          "species": "Sorbus domestica",
+          "species:de": "Speierling",
+          "start_date": "2023"
+        },
+        "relations": [],
+        "meta": {
+          "timestamp": "2025-01-12T21:56:19Z",
+          "version": "4",
+          "changeset": "161288962",
+          "user": "martindick56",
+          "uid": "2814669"
+        },
+        "nominatim": {
+          "address": {
+            "village": "Arlesheim",
+            "county": "Bezirk Arlesheim",
+            "state": "Basel-Landschaft",
+            "ISO3166-2-lvl4": "CH-BL",
+            "postcode": "4144",
+            "country": "Schweiz/Suisse/Svizzera/Svizra",
+            "country_code": "ch"
+          },
+          "display_name": "Arlesheim, Bezirk Arlesheim, Basel-Landschaft, 4144, Schweiz/Suisse/Svizzera/Svizra"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6377547,
+          47.4881442,
+          738.276611328125
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12481846448",
+      "properties": {
+        "type": "node",
+        "id": "12481846448",
+        "tags": {
+          "circumference": "0.03",
+          "height": "0.3",
+          "leaf_cycle": "deciduous",
+          "leaf_type": "broadleaved",
+          "natural": "tree",
+          "note": "data: January 2025",
+          "propagation": "seed",
+          "source": "Arlesheim Spitalholz Süd",
+          "species": "Sorbus domestica",
+          "species:de": "Speierling",
+          "start_date": "2023"
+        },
+        "relations": [],
+        "meta": {
+          "timestamp": "2025-01-08T10:33:42Z",
+          "version": "2",
+          "changeset": "161127881",
+          "user": "martindick56",
+          "uid": "2814669"
+        },
+        "nominatim": {
+          "address": {
+            "village": "Arlesheim",
+            "county": "Bezirk Arlesheim",
+            "state": "Basel-Landschaft",
+            "ISO3166-2-lvl4": "CH-BL",
+            "postcode": "4144",
+            "country": "Schweiz/Suisse/Svizzera/Svizra",
+            "country_code": "ch"
+          },
+          "display_name": "Arlesheim, Bezirk Arlesheim, Basel-Landschaft, 4144, Schweiz/Suisse/Svizzera/Svizra"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.638,
+          47.48794,
+          738.326416015625
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12481848264",
+      "properties": {
+        "type": "node",
+        "id": "12481848264",
+        "tags": {
+          "circumference": "0.03",
+          "height": "0.3",
+          "leaf_cycle": "deciduous",
+          "leaf_type": "broadleaved",
+          "natural": "tree",
+          "note": "data: January 2025",
+          "propagation": "seed",
+          "source": "Arlesheim Eichmatt",
+          "species": "Sorbus domestica",
+          "species:de": "Speierling",
+          "start_date": "2023"
+        },
+        "relations": [],
+        "meta": {
+          "timestamp": "2025-01-07T22:25:55Z",
+          "version": "2",
+          "changeset": "161113410",
+          "user": "martindick56",
+          "uid": "2814669"
+        },
+        "nominatim": {
+          "address": {
+            "village": "Arlesheim",
+            "county": "Bezirk Arlesheim",
+            "state": "Basel-Landschaft",
+            "ISO3166-2-lvl4": "CH-BL",
+            "postcode": "4144",
+            "country": "Schweiz/Suisse/Svizzera/Svizra",
+            "country_code": "ch"
+          },
+          "display_name": "Arlesheim, Bezirk Arlesheim, Basel-Landschaft, 4144, Schweiz/Suisse/Svizzera/Svizra"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6379,
+          47.4881,
+          738.2948608398438
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12481898970",
+      "properties": {
+        "type": "node",
+        "id": "12481898970",
+        "tags": {
+          "circumference": "0.03",
+          "height": "0.80",
+          "leaf_cycle": "deciduous",
+          "leaf_type": "broadleaved",
+          "natural": "tree",
+          "note": "data: January 2025",
+          "propagation": "seed",
+          "source": "Arlesheim Eichmatt",
+          "species": "Sorbus domestica",
+          "species:de": "Speierling",
+          "start_date": "2023"
+        },
+        "relations": [],
+        "meta": {
+          "timestamp": "2025-01-12T11:07:40Z",
+          "version": "2",
+          "changeset": "161268312",
+          "user": "martindick56",
+          "uid": "2814669"
+        },
+        "nominatim": {
+          "address": {
+            "village": "Arlesheim",
+            "county": "Bezirk Arlesheim",
+            "state": "Basel-Landschaft",
+            "ISO3166-2-lvl4": "CH-BL",
+            "postcode": "4144",
+            "country": "Schweiz/Suisse/Svizzera/Svizra",
+            "country_code": "ch"
+          },
+          "display_name": "Arlesheim, Bezirk Arlesheim, Basel-Landschaft, 4144, Schweiz/Suisse/Svizzera/Svizra"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6375575,
+          47.4881196,
+          738.2601318359375
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12481921649",
+      "properties": {
+        "type": "node",
+        "id": "12481921649",
+        "tags": {
+          "circumference": "0.03",
+          "height": "0.55",
+          "leaf_cycle": "deciduous",
+          "leaf_type": "broadleaved",
+          "natural": "tree",
+          "note": "data: January 2025",
+          "propagation": "seed",
+          "source": "Arlesheim Eichmatt",
+          "species": "Sorbus domestica",
+          "species:de": "Speierling",
+          "start_date": "2023"
+        },
+        "relations": [],
+        "meta": {
+          "timestamp": "2025-01-12T11:07:40Z",
+          "version": "2",
+          "changeset": "161268312",
+          "user": "martindick56",
+          "uid": "2814669"
+        },
+        "nominatim": {
+          "address": {
+            "village": "Arlesheim",
+            "county": "Bezirk Arlesheim",
+            "state": "Basel-Landschaft",
+            "ISO3166-2-lvl4": "CH-BL",
+            "postcode": "4144",
+            "country": "Schweiz/Suisse/Svizzera/Svizra",
+            "country_code": "ch"
+          },
+          "display_name": "Arlesheim, Bezirk Arlesheim, Basel-Landschaft, 4144, Schweiz/Suisse/Svizzera/Svizra"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6376907,
+          47.488034,
+          738.26318359375
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12484134942",
+      "properties": {
+        "type": "node",
+        "id": "12484134942",
+        "tags": {
+          "circumference": "0.03",
+          "height": "0.95",
+          "leaf_cycle": "deciduous",
+          "leaf_type": "broadleaved",
+          "natural": "tree",
+          "note": "data: January 2025",
+          "propagation": "seed",
+          "source": "Arlesheim Spitalholz Süd",
+          "species": "Sorbus domestica",
+          "species:de": "Speierling",
+          "start_date": "2023"
+        },
+        "relations": [],
+        "meta": {
+          "timestamp": "2025-01-12T11:07:40Z",
+          "version": "2",
+          "changeset": "161268312",
+          "user": "martindick56",
+          "uid": "2814669"
+        },
+        "nominatim": {
+          "address": {
+            "village": "Arlesheim",
+            "county": "Bezirk Arlesheim",
+            "state": "Basel-Landschaft",
+            "ISO3166-2-lvl4": "CH-BL",
+            "postcode": "4144",
+            "country": "Schweiz/Suisse/Svizzera/Svizra",
+            "country_code": "ch"
+          },
+          "display_name": "Arlesheim, Bezirk Arlesheim, Basel-Landschaft, 4144, Schweiz/Suisse/Svizzera/Svizra"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6375558,
+          47.4880069,
+          738.25634765625
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12484171037",
+      "properties": {
+        "type": "node",
+        "id": "12484171037",
+        "tags": {
+          "circumference": "0.03",
+          "height": "0.35",
+          "leaf_cycle": "deciduous",
+          "leaf_type": "broadleaved",
+          "natural": "tree",
+          "note": "data: January 2025",
+          "propagation": "seed",
+          "source": "Arlesheim Eichmatt",
+          "species": "Sorbus domestica",
+          "species:de": "Speierling",
+          "start_date": "2023"
+        },
+        "relations": [],
+        "meta": {
+          "timestamp": "2025-01-12T11:07:40Z",
+          "version": "3",
+          "changeset": "161268312",
+          "user": "martindick56",
+          "uid": "2814669"
+        },
+        "nominatim": {
+          "address": {
+            "village": "Arlesheim",
+            "county": "Bezirk Arlesheim",
+            "state": "Basel-Landschaft",
+            "ISO3166-2-lvl4": "CH-BL",
+            "postcode": "4144",
+            "country": "Schweiz/Suisse/Svizzera/Svizra",
+            "country_code": "ch"
+          },
+          "display_name": "Arlesheim, Bezirk Arlesheim, Basel-Landschaft, 4144, Schweiz/Suisse/Svizzera/Svizra"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6375416,
+          47.4878039,
+          738.2797241210938
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12484187951",
+      "properties": {
+        "type": "node",
+        "id": "12484187951",
+        "tags": {
+          "circumference": "0.03",
+          "height": "0.6",
+          "leaf_cycle": "deciduous",
+          "leaf_type": "broadleaved",
+          "natural": "tree",
+          "note": "data: January 2025",
+          "propagation": "seed",
+          "source": "Arlesheim Eichmatt",
+          "species": "Sorbus domestica",
+          "species:de": "Speierling",
+          "start_date": "2023"
+        },
+        "relations": [],
+        "meta": {
+          "timestamp": "2025-01-08T10:51:45Z",
+          "version": "1",
+          "changeset": "161128479",
+          "user": "martindick56",
+          "uid": "2814669"
+        },
+        "nominatim": {
+          "address": {
+            "village": "Arlesheim",
+            "county": "Bezirk Arlesheim",
+            "state": "Basel-Landschaft",
+            "ISO3166-2-lvl4": "CH-BL",
+            "postcode": "4144",
+            "country": "Schweiz/Suisse/Svizzera/Svizra",
+            "country_code": "ch"
+          },
+          "display_name": "Arlesheim, Bezirk Arlesheim, Basel-Landschaft, 4144, Schweiz/Suisse/Svizzera/Svizra"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.63751,
+          47.4879,
+          738.255859375
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12484188677",
+      "properties": {
+        "type": "node",
+        "id": "12484188677",
+        "tags": {
+          "circumference": "0.03",
+          "height": "0.45",
+          "leaf_cycle": "deciduous",
+          "leaf_type": "broadleaved",
+          "natural": "tree",
+          "note": "data: January 2025",
+          "propagation": "seed",
+          "source": "Arlesheim Chilchholz Süd",
+          "species": "Sorbus domestica",
+          "species:de": "Speierling",
+          "start_date": "2023"
+        },
+        "relations": [],
+        "meta": {
+          "timestamp": "2025-01-12T11:07:40Z",
+          "version": "2",
+          "changeset": "161268312",
+          "user": "martindick56",
+          "uid": "2814669"
+        },
+        "nominatim": {
+          "address": {
+            "village": "Arlesheim",
+            "county": "Bezirk Arlesheim",
+            "state": "Basel-Landschaft",
+            "ISO3166-2-lvl4": "CH-BL",
+            "postcode": "4144",
+            "country": "Schweiz/Suisse/Svizzera/Svizra",
+            "country_code": "ch"
+          },
+          "display_name": "Arlesheim, Bezirk Arlesheim, Basel-Landschaft, 4144, Schweiz/Suisse/Svizzera/Svizra"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6375992,
+          47.4878829,
+          738.2749633789062
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12484380952",
+      "properties": {
+        "type": "node",
+        "id": "12484380952",
+        "tags": {
+          "leaf_cycle": "deciduous",
+          "leaf_type": "broadleaved",
+          "natural": "tree",
+          "note": "data: January 2025",
+          "propagation": "graft",
+          "source": "Riese von Ockstadt",
+          "species": "Sorbus domestica",
+          "species:de": "Speierling",
+          "start_date": "2024"
+        },
+        "relations": [],
+        "meta": {
+          "timestamp": "2025-01-08T15:14:06Z",
+          "version": "4",
+          "changeset": "161137461",
+          "user": "martindick56",
+          "uid": "2814669"
+        },
+        "nominatim": {
+          "address": {
+            "village": "Frick",
+            "county": "Bezirk Laufenburg",
+            "state": "Aargau",
+            "ISO3166-2-lvl4": "CH-AG",
+            "postcode": "5070",
+            "country": "Schweiz/Suisse/Svizzera/Svizra",
+            "country_code": "ch"
+          },
+          "display_name": "Frick, Bezirk Laufenburg, Aargau, 5070, Schweiz/Suisse/Svizzera/Svizra"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.0228287,
+          47.511861,
+          803.9028930664062
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12484520375",
+      "properties": {
+        "type": "node",
+        "id": "12484520375",
+        "tags": {
+          "leaf_cycle": "deciduous",
+          "leaf_type": "broadleaved",
+          "natural": "tree",
+          "note": "data: January 2025",
+          "propagation": "graft",
+          "source": "Falkendauer Luxemburg",
+          "species": "Sorbus domestica",
+          "species:de": "Speierling",
+          "start_date": "2024"
+        },
+        "relations": [],
+        "meta": {
+          "timestamp": "2025-01-08T14:58:33Z",
+          "version": "1",
+          "changeset": "161136800",
+          "user": "martindick56",
+          "uid": "2814669"
+        },
+        "nominatim": {
+          "address": {
+            "village": "Frick",
+            "county": "Bezirk Laufenburg",
+            "state": "Aargau",
+            "ISO3166-2-lvl4": "CH-AG",
+            "postcode": "5070",
+            "country": "Schweiz/Suisse/Svizzera/Svizra",
+            "country_code": "ch"
+          },
+          "display_name": "Frick, Bezirk Laufenburg, Aargau, 5070, Schweiz/Suisse/Svizzera/Svizra"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.021588,
+          47.512488,
+          802.5259399414062
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12484537512",
+      "properties": {
+        "type": "node",
+        "id": "12484537512",
+        "tags": {
+          "leaf_cycle": "deciduous",
+          "leaf_type": "broadleaved",
+          "natural": "tree",
+          "note": "data: January 2024",
+          "propagation": "graft",
+          "source": "Dreieich",
+          "species": "Sorbus domestica",
+          "species:de": "Speierling",
+          "start_date": "2024"
+        },
+        "relations": [],
+        "meta": {
+          "timestamp": "2025-01-08T15:14:06Z",
+          "version": "3",
+          "changeset": "161137461",
+          "user": "martindick56",
+          "uid": "2814669"
+        },
+        "nominatim": {
+          "address": {
+            "village": "Frick",
+            "county": "Bezirk Laufenburg",
+            "state": "Aargau",
+            "ISO3166-2-lvl4": "CH-AG",
+            "postcode": "5070",
+            "country": "Schweiz/Suisse/Svizzera/Svizra",
+            "country_code": "ch"
+          },
+          "display_name": "Frick, Bezirk Laufenburg, Aargau, 5070, Schweiz/Suisse/Svizzera/Svizra"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.022957,
+          47.51141,
+          804.2162475585938
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12484549358",
+      "properties": {
+        "type": "node",
+        "id": "12484549358",
+        "tags": {
+          "leaf_cycle": "deciduous",
+          "leaf_type": "broadleaved",
+          "natural": "tree",
+          "note": "data: January 2025",
+          "propagation": "graft",
+          "source": "Sossenheimer Riese",
+          "species": "Sorbus domestica",
+          "species:de": "Speierling",
+          "start_date": "2024"
+        },
+        "relations": [],
+        "meta": {
+          "timestamp": "2025-01-08T15:14:06Z",
+          "version": "2",
+          "changeset": "161137461",
+          "user": "martindick56",
+          "uid": "2814669"
+        },
+        "nominatim": {
+          "address": {
+            "village": "Frick",
+            "county": "Bezirk Laufenburg",
+            "state": "Aargau",
+            "ISO3166-2-lvl4": "CH-AG",
+            "postcode": "5070",
+            "country": "Schweiz/Suisse/Svizzera/Svizra",
+            "country_code": "ch"
+          },
+          "display_name": "Frick, Bezirk Laufenburg, Aargau, 5070, Schweiz/Suisse/Svizzera/Svizra"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.023085,
+          47.51097,
+          804.524658203125
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12484603420",
+      "properties": {
+        "type": "node",
+        "id": "12484603420",
+        "tags": {
+          "leaf_cycle": "deciduous",
+          "leaf_type": "broadleaved",
+          "natural": "tree",
+          "note": "data: January 2025",
+          "propagation": "graft",
+          "source": "Sossenheimer Schraube",
+          "species": "Sorbus domestica",
+          "species:de": "Speierling",
+          "start_date": "2024"
+        },
+        "relations": [],
+        "meta": {
+          "timestamp": "2025-01-08T15:14:06Z",
+          "version": "1",
+          "changeset": "161137461",
+          "user": "martindick56",
+          "uid": "2814669"
+        },
+        "nominatim": {
+          "address": {
+            "village": "Frick",
+            "county": "Bezirk Laufenburg",
+            "state": "Aargau",
+            "ISO3166-2-lvl4": "CH-AG",
+            "postcode": "5070",
+            "country": "Schweiz/Suisse/Svizzera/Svizra",
+            "country_code": "ch"
+          },
+          "display_name": "Frick, Bezirk Laufenburg, Aargau, 5070, Schweiz/Suisse/Svizzera/Svizra"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.021703,
+          47.512092,
+          802.8023681640625
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12487203106",
+      "properties": {
+        "type": "node",
+        "id": "12487203106",
+        "tags": {
+          "circumference": "0.45",
+          "leaf_cycle": "deciduous",
+          "leaf_type": "broadleaved",
+          "natural": "tree",
+          "note": "data: January 2025",
+          "propagation": "planted",
+          "species": "Sorbus domestica",
+          "species:de": "Speierling"
+        },
+        "relations": [],
+        "meta": {
+          "timestamp": "2025-01-09T20:58:53Z",
+          "version": "2",
+          "changeset": "161184534",
+          "user": "martindick56",
+          "uid": "2814669"
+        },
+        "nominatim": {
+          "address": {
+            "town": "Therwil",
+            "county": "Bezirk Arlesheim",
+            "state": "Basel-Landschaft",
+            "ISO3166-2-lvl4": "CH-BL",
+            "postcode": "4106",
+            "country": "Schweiz/Suisse/Svizzera/Svizra",
+            "country_code": "ch"
+          },
+          "display_name": "Therwil, Bezirk Arlesheim, Basel-Landschaft, 4106, Schweiz/Suisse/Svizzera/Svizra"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5465428,
+          47.4948992,
+          724.23388671875
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12487238333",
+      "properties": {
+        "type": "node",
+        "id": "12487238333",
+        "tags": {
+          "circumference": "0.03",
+          "height": "0.5",
+          "leaf_cycle": "deciduous",
+          "leaf_type": "broadleaved",
+          "natural": "tree",
+          "propagation": "seed",
+          "source": "Arlesheim Chilchholz Gipfel Mitte",
+          "species": "Sorbus domestica",
+          "species:de": "Speierling"
+        },
+        "relations": [],
+        "meta": {
+          "timestamp": "2025-01-09T21:22:37Z",
+          "version": "1",
+          "changeset": "161185118",
+          "user": "martindick56",
+          "uid": "2814669"
+        },
+        "nominatim": {
+          "address": {
+            "town": "Oberwil",
+            "county": "Bezirk Arlesheim",
+            "state": "Basel-Landschaft",
+            "ISO3166-2-lvl4": "CH-BL",
+            "postcode": "4104",
+            "country": "Schweiz/Suisse/Svizzera/Svizra",
+            "country_code": "ch"
+          },
+          "display_name": "Oberwil, Bezirk Arlesheim, Basel-Landschaft, 4104, Schweiz/Suisse/Svizzera/Svizra"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.55768,
+          47.51078,
+          725.3250122070312
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12487252306",
+      "properties": {
+        "type": "node",
+        "id": "12487252306",
+        "tags": {
+          "circumference": "0.1",
+          "leaf_cycle": "deciduous",
+          "leaf_type": "broadleaved",
+          "natural": "tree",
+          "note": "data: January 2025",
+          "propagation": "planted",
+          "species": "Sorbus domestica",
+          "species:de": "Speierling"
+        },
+        "relations": [],
+        "meta": {
+          "timestamp": "2025-01-09T21:53:58Z",
+          "version": "1",
+          "changeset": "161185893",
+          "user": "martindick56",
+          "uid": "2814669"
+        },
+        "nominatim": {
+          "address": {
+            "town": "Oberwil",
+            "county": "Bezirk Arlesheim",
+            "state": "Basel-Landschaft",
+            "ISO3166-2-lvl4": "CH-BL",
+            "postcode": "4104",
+            "country": "Schweiz/Suisse/Svizzera/Svizra",
+            "country_code": "ch"
+          },
+          "display_name": "Oberwil, Bezirk Arlesheim, Basel-Landschaft, 4104, Schweiz/Suisse/Svizzera/Svizra"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5570556,
+          47.5097446,
+          725.276611328125
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12487257105",
+      "properties": {
+        "type": "node",
+        "id": "12487257105",
+        "tags": {
+          "circumference": "0.03",
+          "height": "1.2",
+          "leaf_cycle": "deciduous",
+          "leaf_type": "broadleaved",
+          "natural": "tree",
+          "note": "data: January 2025",
+          "propagation": "seed",
+          "source": "Arlesheim Chilchholz Gipfel unten",
+          "species": "Sorbus domestica",
+          "species:de": "Speierling"
+        },
+        "relations": [],
+        "meta": {
+          "timestamp": "2025-01-09T21:37:32Z",
+          "version": "1",
+          "changeset": "161185449",
+          "user": "martindick56",
+          "uid": "2814669"
+        },
+        "nominatim": {
+          "address": {
+            "town": "Oberwil",
+            "county": "Bezirk Arlesheim",
+            "state": "Basel-Landschaft",
+            "ISO3166-2-lvl4": "CH-BL",
+            "postcode": "4104",
+            "country": "Schweiz/Suisse/Svizzera/Svizra",
+            "country_code": "ch"
+          },
+          "display_name": "Oberwil, Bezirk Arlesheim, Basel-Landschaft, 4104, Schweiz/Suisse/Svizzera/Svizra"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.55778,
+          47.51064,
+          725.343017578125
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12487318657",
+      "properties": {
+        "type": "node",
+        "id": "12487318657",
+        "tags": {
+          "circumference": "0.95",
+          "leaf_cycle": "deciduous",
+          "leaf_type": "broadleaved",
+          "natural": "tree",
+          "note": "data: January 2025",
+          "propagation": "planted",
+          "species": "Sorbus domestica",
+          "species:de": "Speierling",
+          "start_date": "1999"
+        },
+        "relations": [],
+        "meta": {
+          "timestamp": "2025-01-09T22:25:48Z",
+          "version": "1",
+          "changeset": "161186563",
+          "user": "martindick56",
+          "uid": "2814669"
+        },
+        "nominatim": {
+          "address": {
+            "village": "Ettingen",
+            "county": "Bezirk Arlesheim",
+            "state": "Basel-Landschaft",
+            "ISO3166-2-lvl4": "CH-BL",
+            "postcode": "4107",
+            "country": "Schweiz/Suisse/Svizzera/Svizra",
+            "country_code": "ch"
+          },
+          "display_name": "Ettingen, Bezirk Arlesheim, Basel-Landschaft, 4107, Schweiz/Suisse/Svizzera/Svizra"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.543101,
+          47.4854848,
+          723.9331665039062
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12488639592",
+      "properties": {
+        "type": "node",
+        "id": "12488639592",
+        "tags": {
+          "circumference": "0.16",
+          "leaf_cycle": "deciduous",
+          "leaf_type": "broadleaved",
+          "natural": "tree",
+          "note": "data: January 2025",
+          "propagation": "planted",
+          "species": "Sorbus domestica",
+          "species:de": "Speierling"
+        },
+        "relations": [],
+        "meta": {
+          "timestamp": "2025-01-10T16:12:19Z",
+          "version": "1",
+          "changeset": "161211726",
+          "user": "martindick56",
+          "uid": "2814669"
+        },
+        "nominatim": {
+          "address": {
+            "village": "Ettingen",
+            "county": "Bezirk Arlesheim",
+            "state": "Basel-Landschaft",
+            "ISO3166-2-lvl4": "CH-BL",
+            "postcode": "4107",
+            "country": "Schweiz/Suisse/Svizzera/Svizra",
+            "country_code": "ch"
+          },
+          "display_name": "Ettingen, Bezirk Arlesheim, Basel-Landschaft, 4107, Schweiz/Suisse/Svizzera/Svizra"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.529025,
+          47.477503,
+          721.8378295898438
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12488756401",
+      "properties": {
+        "type": "node",
+        "id": "12488756401",
+        "tags": {
+          "circumference": "0.03",
+          "height": "1.0",
+          "leaf_cycle": "deciduous",
+          "leaf_type": "broadleaved",
+          "natural": "tree",
+          "note": "data: January 2025",
+          "propagation": "planted",
+          "species": "Sorbus domestica",
+          "species:de": "Speierling"
+        },
+        "relations": [],
+        "meta": {
+          "timestamp": "2025-01-10T17:20:47Z",
+          "version": "1",
+          "changeset": "161214170",
+          "user": "martindick56",
+          "uid": "2814669"
+        },
+        "nominatim": {
+          "address": {
+            "village": "Metzerlen-Mariastein",
+            "municipality": "Bezirk Dorneck",
+            "county": "Amtei Dorneck-Thierstein",
+            "state": "Solothurn",
+            "ISO3166-2-lvl4": "CH-SO",
+            "postcode": "4116",
+            "country": "Schweiz/Suisse/Svizzera/Svizra",
+            "country_code": "ch"
+          },
+          "display_name": "Metzerlen-Mariastein, Bezirk Dorneck, Amtei Dorneck-Thierstein, Solothurn, 4116, Schweiz/Suisse/Svizzera/Svizra"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.48008,
+          47.478415,
+          713.9829711914062
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12509792585",
+      "properties": {
+        "type": "node",
+        "id": "12509792585",
+        "tags": {
+          "circumference": "0.48",
+          "denotation": "garden",
+          "leaf_cycle": "deciduous",
+          "leaf_type": "broadleaved",
+          "natural": "tree",
+          "note": "data: January 2025",
+          "propagation": "planted",
+          "species": "Sorbus domestica",
+          "species:de": "Speierling",
+          "survey:date": "2025-01-16"
+        },
+        "relations": [],
+        "meta": {
+          "timestamp": "2025-01-17T17:39:19Z",
+          "version": "2",
+          "changeset": "161465018",
+          "user": "martindick56",
+          "uid": "2814669"
+        },
+        "nominatim": {
+          "address": {
+            "city": "Zürich",
+            "county": "Bezirk Zürich",
+            "state": "Zürich",
+            "ISO3166-2-lvl4": "CH-ZH",
+            "country": "Schweiz/Suisse/Svizzera/Svizra",
+            "country_code": "ch"
+          },
+          "display_name": "Zürich, Bezirk Zürich, Zürich, Schweiz/Suisse/Svizzera/Svizra"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5603613,
+          47.3582105,
+          1469.1021728515625
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12509830589",
+      "properties": {
+        "type": "node",
+        "id": "12509830589",
+        "tags": {
+          "circumference": "0.15",
+          "denotation": "park",
+          "leaf_cycle": "deciduous",
+          "leaf_type": "broadleaved",
+          "natural": "tree",
+          "propagation": "planted",
+          "species": "Sorbus domestica",
+          "species:de": "Speierling",
+          "survey:date": "2025-01-16"
+        },
+        "relations": [],
+        "meta": {
+          "timestamp": "2025-01-17T17:45:13Z",
+          "version": "1",
+          "changeset": "161465201",
+          "user": "martindick56",
+          "uid": "2814669"
+        },
+        "nominatim": {
+          "address": {
+            "city": "Zürich",
+            "county": "Bezirk Zürich",
+            "state": "Zürich",
+            "ISO3166-2-lvl4": "CH-ZH",
+            "country": "Schweiz/Suisse/Svizzera/Svizra",
+            "country_code": "ch"
+          },
+          "display_name": "Zürich, Bezirk Zürich, Zürich, Schweiz/Suisse/Svizzera/Svizra"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5604558,
+          47.3582163,
+          1469.2000732421875
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12509835272",
+      "properties": {
+        "type": "node",
+        "id": "12509835272",
+        "tags": {
+          "circumference": "0.14",
+          "denotation": "park",
+          "leaf_cycle": "deciduous",
+          "leaf_type": "broadleaved",
+          "natural": "tree",
+          "propagation": "planted",
+          "species": "Sorbus domestica",
+          "species:de": "Speierling",
+          "survey:date": "2025-01-16"
+        },
+        "relations": [],
+        "meta": {
+          "timestamp": "2025-01-17T17:48:21Z",
+          "version": "1",
+          "changeset": "161465299",
+          "user": "martindick56",
+          "uid": "2814669"
+        },
+        "nominatim": {
+          "address": {
+            "city": "Zürich",
+            "county": "Bezirk Zürich",
+            "state": "Zürich",
+            "ISO3166-2-lvl4": "CH-ZH",
+            "country": "Schweiz/Suisse/Svizzera/Svizra",
+            "country_code": "ch"
+          },
+          "display_name": "Zürich, Bezirk Zürich, Zürich, Schweiz/Suisse/Svizzera/Svizra"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5604657,
+          47.3580743,
+          1469.3851318359375
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "node/265096144",
       "properties": {
         "type": "node",
@@ -86473,6 +87336,7 @@
           "leaf_type": "broadleaved",
           "natural": "tree",
           "note": "data: September 2023, tree ist probably dead",
+          "propagation": "planted",
           "protected": "yes",
           "sopsr:count": "1",
           "source": "(C)2008 Štátna ochrana prírody SR Banská Bystrica www.sopsr.sk",
@@ -86482,9 +87346,9 @@
         },
         "relations": [],
         "meta": {
-          "timestamp": "2023-09-07T20:18:50Z",
-          "version": "3",
-          "changeset": "140957014",
+          "timestamp": "2025-01-05T19:25:53Z",
+          "version": "4",
+          "changeset": "161033682",
           "user": "martindick56",
           "uid": "2814669"
         },
@@ -86522,6 +87386,7 @@
           "leaf_type": "broadleaved",
           "natural": "tree",
           "note": "data: September 2024",
+          "propagation": "planted",
           "protected": "yes",
           "sopsr:count": "3",
           "source": "(C)2008 Štátna ochrana prírody SR Banská Bystrica www.sopsr.sk",
@@ -86531,9 +87396,9 @@
         },
         "relations": [],
         "meta": {
-          "timestamp": "2024-10-22T18:07:14Z",
-          "version": "6",
-          "changeset": "158223399",
+          "timestamp": "2025-01-05T20:02:47Z",
+          "version": "7",
+          "changeset": "161034722",
           "user": "martindick56",
           "uid": "2814669"
         },
@@ -86572,6 +87437,7 @@
           "leaf_type": "broadleaved",
           "natural": "tree",
           "note": "October 2024, tree is dead; Roland Steiner",
+          "propagation": "planted",
           "protected": "yes",
           "sopsr:count": "3",
           "source": "(C)2008 Štátna ochrana prírody SR Banská Bystrica www.sopsr.sk",
@@ -86581,9 +87447,9 @@
         },
         "relations": [],
         "meta": {
-          "timestamp": "2024-10-18T18:36:27Z",
-          "version": "6",
-          "changeset": "158063568",
+          "timestamp": "2025-01-05T20:04:47Z",
+          "version": "7",
+          "changeset": "161034785",
           "user": "martindick56",
           "uid": "2814669"
         },
@@ -86622,6 +87488,7 @@
           "leaf_type": "broadleaved",
           "natural": "tree",
           "note": "data: September 2024",
+          "propagation": "planted",
           "protected": "yes",
           "sopsr:count": "3",
           "source": "(C)2008 Štátna ochrana prírody SR Banská Bystrica www.sopsr.sk",
@@ -86631,9 +87498,9 @@
         },
         "relations": [],
         "meta": {
-          "timestamp": "2024-10-22T18:17:57Z",
-          "version": "4",
-          "changeset": "158223870",
+          "timestamp": "2025-01-05T20:29:27Z",
+          "version": "5",
+          "changeset": "161035458",
           "user": "martindick56",
           "uid": "2814669"
         },
@@ -86672,14 +87539,15 @@
           "leaf_cycle": "deciduous",
           "leaf_type": "broadleaved",
           "natural": "tree",
+          "propagation": "planted",
           "species": "Sorbus domestica",
           "species:de": "Speierling"
         },
         "relations": [],
         "meta": {
-          "timestamp": "2023-11-17T22:30:24Z",
-          "version": "4",
-          "changeset": "144157167",
+          "timestamp": "2025-01-05T17:02:52Z",
+          "version": "5",
+          "changeset": "161028959",
           "user": "martindick56",
           "uid": "2814669"
         },
@@ -86717,6 +87585,7 @@
           "leaf_type": "broadleaved",
           "natural": "tree",
           "note": "data: September 2024, Angaben nach Baumkataster Wien korrigiert",
+          "propagation": "planted",
           "source": "OGD Vienna;Baumkataster Wien MA 42, 2003",
           "species": "Sorbus domestica",
           "species:de": "Speierling",
@@ -86724,9 +87593,9 @@
         },
         "relations": [],
         "meta": {
-          "timestamp": "2024-09-06T20:40:02Z",
-          "version": "3",
-          "changeset": "156291850",
+          "timestamp": "2025-01-05T17:23:49Z",
+          "version": "4",
+          "changeset": "161029835",
           "user": "martindick56",
           "uid": "2814669"
         },
@@ -86762,6 +87631,7 @@
           "height": "5",
           "leaf_type": "broadleaved",
           "natural": "tree",
+          "propagation": "planted",
           "source": "OGD Vienna",
           "species": "Sorbus domestica",
           "species:de": "Speierling",
@@ -86771,11 +87641,11 @@
         },
         "relations": [],
         "meta": {
-          "timestamp": "2014-12-23T17:19:44Z",
-          "version": "2",
-          "changeset": "27655194",
-          "user": "ecdos",
-          "uid": "762684"
+          "timestamp": "2025-01-06T18:09:22Z",
+          "version": "4",
+          "changeset": "161069296",
+          "user": "mueschel",
+          "uid": "616774"
         },
         "nominatim": {
           "address": {
@@ -86809,6 +87679,7 @@
           "height": "7",
           "leaf_type": "broadleaved",
           "natural": "tree",
+          "propagation": "planted",
           "source": "OGD Vienna",
           "species": "Sorbus domestica",
           "species:de": "Speierling",
@@ -86818,11 +87689,11 @@
         },
         "relations": [],
         "meta": {
-          "timestamp": "2014-12-23T17:19:53Z",
-          "version": "2",
-          "changeset": "27655194",
-          "user": "ecdos",
-          "uid": "762684"
+          "timestamp": "2025-01-05T17:00:06Z",
+          "version": "3",
+          "changeset": "161028820",
+          "user": "martindick56",
+          "uid": "2814669"
         },
         "nominatim": {
           "address": {
@@ -86858,6 +87729,7 @@
           "leaf_type": "broadleaved",
           "natural": "tree",
           "note": "data: September 2024",
+          "propagation": "planted",
           "source": "OGD Vienna;Baumkataster Wien MA 42;406",
           "species": "Sorbus domestica",
           "species:de": "Speierling",
@@ -86867,9 +87739,9 @@
         },
         "relations": [],
         "meta": {
-          "timestamp": "2024-09-07T07:41:06Z",
-          "version": "3",
-          "changeset": "156301581",
+          "timestamp": "2025-01-05T19:13:37Z",
+          "version": "5",
+          "changeset": "161033290",
           "user": "martindick56",
           "uid": "2814669"
         },
@@ -86886,8 +87758,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.4743187,
-          48.2404399,
+          16.4743208,
+          48.2404396,
           157
         ]
       }
@@ -86905,16 +87777,17 @@
           "name": "Naturdenkmal Speierling",
           "natural": "tree",
           "note": "data added: November 2023",
-          "source": "Wikipedia: Naturdenkmäler Burgenland",
+          "propagation": "natural",
+          "source": "Wikipedia: Naturdenkmäler Burgenland MA-040",
           "species": "Sorbus domestica",
           "species:de": "Speierling",
           "tourism": "attraction"
         },
         "relations": [],
         "meta": {
-          "timestamp": "2024-09-08T20:53:26Z",
-          "version": "3",
-          "changeset": "156368986",
+          "timestamp": "2025-01-05T11:51:40Z",
+          "version": "4",
+          "changeset": "161017291",
           "user": "martindick56",
           "uid": "2814669"
         },
@@ -86952,15 +87825,16 @@
           "name": "Speierling",
           "natural": "tree",
           "note": "data: November 2023",
-          "source": "Wikipedia: Naturdenkmäler Burgenland",
+          "propagation": "planted",
+          "source": "Wikipedia: Naturdenkmäler Burgenland OP-126",
           "species": "Sorbus domestica",
           "species:de": "Speierling"
         },
         "relations": [],
         "meta": {
-          "timestamp": "2024-09-08T21:17:22Z",
-          "version": "3",
-          "changeset": "156369623",
+          "timestamp": "2025-01-05T12:03:16Z",
+          "version": "4",
+          "changeset": "161017640",
           "user": "martindick56",
           "uid": "2814669"
         },
@@ -86997,15 +87871,16 @@
           "leaf_cycle": "deciduous",
           "leaf_type": "broadleaved",
           "natural": "tree",
-          "source": "Wikipedia: Naturdenkmäler Niederösterreich",
+          "propagation": "natural",
+          "source": "Wikipedia: Naturdenkmäler Niederösterreich, BN-079",
           "species": "Sorbus domestica",
           "species:de": "Speierling"
         },
         "relations": [],
         "meta": {
-          "timestamp": "2024-09-09T17:24:06Z",
-          "version": "4",
-          "changeset": "156405936",
+          "timestamp": "2025-01-05T16:04:03Z",
+          "version": "5",
+          "changeset": "161026502",
           "user": "martindick56",
           "uid": "2814669"
         },
@@ -87095,15 +87970,16 @@
           "leaf_cycle": "deciduous",
           "leaf_type": "broadleaved",
           "natural": "tree",
-          "source": "Wikipedia: Naturdenkmäler Steiermark",
+          "propagation": "planted",
+          "source": "Wikipedia: Naturdenkmäler Steiermark  Nr. 874",
           "species": "Sorbus domestica",
           "species:de": "Speierling"
         },
         "relations": [],
         "meta": {
-          "timestamp": "2024-09-09T18:48:07Z",
-          "version": "2",
-          "changeset": "156409274",
+          "timestamp": "2025-01-05T16:24:37Z",
+          "version": "3",
+          "changeset": "161027356",
           "user": "martindick56",
           "uid": "2814669"
         },
@@ -87140,15 +88016,16 @@
           "leaf_cycle": "deciduous",
           "leaf_type": "broadleaved",
           "natural": "tree",
-          "source": "Wikipedia: Naturdenkmäler Steiermark",
+          "propagation": "planted",
+          "source": "Wikipedia: Naturdenkmäler Steiermark  Nr. 870",
           "species": "Sorbus domestica",
           "species:de": "Speierling"
         },
         "relations": [],
         "meta": {
-          "timestamp": "2024-09-09T18:53:53Z",
-          "version": "2",
-          "changeset": "156409515",
+          "timestamp": "2025-01-05T16:22:33Z",
+          "version": "3",
+          "changeset": "161027295",
           "user": "martindick56",
           "uid": "2814669"
         },
@@ -87186,15 +88063,16 @@
           "leaf_type": "broadleaved",
           "natural": "tree",
           "note": "data: November 2023",
-          "source": "Wikipedia: Naturdenkmäler Burgenland",
+          "propagation": "natural",
+          "source": "Wikipedia: Naturdenkmäler Burgenland EU-005",
           "species": "Sorbus domestica",
           "species:de": "Speierling"
         },
         "relations": [],
         "meta": {
-          "timestamp": "2024-09-08T19:51:08Z",
-          "version": "3",
-          "changeset": "156367288",
+          "timestamp": "2025-01-05T10:55:02Z",
+          "version": "4",
+          "changeset": "161015357",
           "user": "martindick56",
           "uid": "2814669"
         },
@@ -87232,15 +88110,16 @@
           "leaf_type": "broadleaved",
           "natural": "tree",
           "note": "data: November 2023",
-          "source": "Wikipedia: Naturdenkmäler Burgenland",
+          "propagation": "natural",
+          "source": "Wikipedia: Naturdenkmäler Burgenland EU-113",
           "species": "Sorbus domestica",
           "species:de": "Speierling"
         },
         "relations": [],
         "meta": {
-          "timestamp": "2024-09-08T19:36:09Z",
-          "version": "3",
-          "changeset": "156366852",
+          "timestamp": "2025-01-05T10:52:43Z",
+          "version": "4",
+          "changeset": "161015285",
           "user": "martindick56",
           "uid": "2814669"
         },
@@ -87278,15 +88157,16 @@
           "leaf_type": "broadleaved",
           "natural": "tree",
           "note": "data: November 2023",
-          "source": "Wikipedia: Naturdenkmäler Burgenland",
+          "propagation": "planted",
+          "source": "Wikipedia: Naturdenkmäler Burgenland MA-017",
           "species": "Sorbus domestica",
           "species:de": "Speierling"
         },
         "relations": [],
         "meta": {
-          "timestamp": "2024-12-08T11:01:05Z",
-          "version": "5",
-          "changeset": "160052513",
+          "timestamp": "2025-01-05T11:22:52Z",
+          "version": "6",
+          "changeset": "161016301",
           "user": "martindick56",
           "uid": "2814669"
         },
@@ -87324,15 +88204,16 @@
           "leaf_type": "broadleaved",
           "natural": "tree",
           "note": "data:  November 2023",
-          "source": "Wikipedia: Naturdenkmäler Burgenland",
+          "propagation": "planted",
+          "source": "Wikipedia: Naturdenkmäler Burgenland MA-015",
           "species": "Sorbus domestica",
           "species:de": "Speierling"
         },
         "relations": [],
         "meta": {
-          "timestamp": "2024-09-08T20:20:36Z",
-          "version": "3",
-          "changeset": "156368149",
+          "timestamp": "2025-01-05T11:25:10Z",
+          "version": "4",
+          "changeset": "161016380",
           "user": "martindick56",
           "uid": "2814669"
         },
@@ -87372,15 +88253,16 @@
           "leaf_type": "broadleaved",
           "natural": "tree",
           "note": "data: November 2023, September 2024",
+          "propagation": "planted",
           "source": "Wien Umweltgut Naturschutz Naturdenkmal Nr. 829  Wikipedia",
           "species": "Sorbus domestica",
           "species:de": "Speierling"
         },
         "relations": [],
         "meta": {
-          "timestamp": "2024-10-22T21:53:48Z",
-          "version": "4",
-          "changeset": "158230537",
+          "timestamp": "2025-01-05T16:49:28Z",
+          "version": "5",
+          "changeset": "161028358",
           "user": "martindick56",
           "uid": "2814669"
         },
@@ -87415,15 +88297,16 @@
           "leaf_type": "broadleaved",
           "natural": "tree",
           "note": "data: November 2023",
-          "source": "Wien: Umweltgut  Naturschutz Naturdenkmal Nr. 572  Wikipedia;https://de.wikipedia.org/wiki/Liste_der_Naturdenkm%C3%A4ler_in_Wien/Liesing",
+          "propagation": "planted",
+          "source": "Wien: Umweltgut  Naturschutz Naturdenkmal Nr. 572  Wikipedia",
           "species": "Sorbus domestica",
           "species:de": "Speierling"
         },
         "relations": [],
         "meta": {
-          "timestamp": "2024-12-12T13:52:35Z",
-          "version": "4",
-          "changeset": "160208923",
+          "timestamp": "2025-01-05T16:51:19Z",
+          "version": "5",
+          "changeset": "161028441",
           "user": "martindick56",
           "uid": "2814669"
         },
@@ -87458,15 +88341,16 @@
           "leaf_type": "broadleaved",
           "natural": "tree",
           "note": "data: November 2023, zwei Speierlinge",
+          "propagation": "planted",
           "source": "Wien Umweltgut: Naturschutz  Naturdenkmal Nr. 256   Wikipedia;https://de.wikipedia.org/wiki/Liste_der_Naturdenkm%C3%A4ler_in_Wien/Liesing",
           "species": "Sorbus domestica",
           "species:de": "Speierling"
         },
         "relations": [],
         "meta": {
-          "timestamp": "2024-12-12T13:50:06Z",
-          "version": "6",
-          "changeset": "160208841",
+          "timestamp": "2025-01-05T16:54:22Z",
+          "version": "7",
+          "changeset": "161028562",
           "user": "martindick56",
           "uid": "2814669"
         },
@@ -87501,15 +88385,16 @@
           "leaf_type": "broadleaved",
           "natural": "tree",
           "note": "data: November 2023",
+          "propagation": "planted",
           "source": "Wien: Umweltgut Naturschutz Naturdenkmal Nr. 680  Wikipedia",
           "species": "Sorbus domestica",
           "species:de": "Speierling"
         },
         "relations": [],
         "meta": {
-          "timestamp": "2024-09-09T18:24:24Z",
-          "version": "3",
-          "changeset": "156408371",
+          "timestamp": "2025-01-05T16:56:03Z",
+          "version": "4",
+          "changeset": "161028628",
           "user": "martindick56",
           "uid": "2814669"
         },
@@ -87544,15 +88429,16 @@
           "leaf_type": "broadleaved",
           "natural": "tree",
           "note": "data: November 2023",
-          "source": "Wikipedia: Naturdenkmäler Burgenland",
+          "propagation": "natural",
+          "source": "Wikipedia: Naturdenkmäler Burgenland;EU-121",
           "species": "Sorbus domestica",
           "species:de": "Speierling"
         },
         "relations": [],
         "meta": {
-          "timestamp": "2024-09-08T20:01:09Z",
-          "version": "2",
-          "changeset": "156367545",
+          "timestamp": "2025-01-05T10:57:53Z",
+          "version": "3",
+          "changeset": "161015428",
           "user": "martindick56",
           "uid": "2814669"
         },
@@ -87590,15 +88476,16 @@
           "leaf_type": "broadleaved",
           "natural": "tree",
           "note": "data: November 2023",
-          "source": "Wikipedia: Naturdenkmäler Burgenland",
+          "propagation": "natural",
+          "source": "Wikipedia: Naturdenkmäler Burgenland EU-122",
           "species": "Sorbus domestica",
           "species:de": "Speierling"
         },
         "relations": [],
         "meta": {
-          "timestamp": "2024-09-08T20:03:43Z",
-          "version": "2",
-          "changeset": "156367633",
+          "timestamp": "2025-01-05T11:00:34Z",
+          "version": "3",
+          "changeset": "161015534",
           "user": "martindick56",
           "uid": "2814669"
         },
@@ -87636,15 +88523,16 @@
           "leaf_type": "broadleaved",
           "natural": "tree",
           "note": "data: November 2023",
-          "source": "Wikipedia: Naturdenkmäler Burgenland",
+          "propagation": "natural",
+          "source": "Wikipedia: Naturdenkmäler Burgenland;MA-014",
           "species": "Sorbus domestica",
           "species:de": "Speierling"
         },
         "relations": [],
         "meta": {
-          "timestamp": "2024-09-08T20:13:05Z",
-          "version": "2",
-          "changeset": "156367933",
+          "timestamp": "2025-01-05T11:06:19Z",
+          "version": "3",
+          "changeset": "161015686",
           "user": "martindick56",
           "uid": "2814669"
         },
@@ -87681,15 +88569,16 @@
           "leaf_type": "broadleaved",
           "natural": "tree",
           "note": "data: November 2023",
-          "source": "Wikipedia: Naturdenkmäler Burgenland",
+          "propagation": "planted",
+          "source": "Wikipedia: Naturdenkmäler Burgenland MA-026",
           "species": "Sorbus domestica",
           "species:de": "Speierling"
         },
         "relations": [],
         "meta": {
-          "timestamp": "2024-09-08T20:18:26Z",
-          "version": "2",
-          "changeset": "156368087",
+          "timestamp": "2025-01-05T11:27:40Z",
+          "version": "3",
+          "changeset": "161016467",
           "user": "martindick56",
           "uid": "2814669"
         },
@@ -87727,15 +88616,16 @@
           "leaf_type": "broadleaved",
           "natural": "tree",
           "note": "data: November 2023",
-          "source": "Wikipedia: Naturdenkmäler Burgenland",
+          "propagation": "planted",
+          "source": "Wikipedia: Naturdenkmäle Burgenland;MA-024",
           "species": "Sorbus domestica",
           "species:de": "Speierling"
         },
         "relations": [],
         "meta": {
-          "timestamp": "2024-09-08T20:07:39Z",
-          "version": "2",
-          "changeset": "156367734",
+          "timestamp": "2025-01-05T11:19:11Z",
+          "version": "3",
+          "changeset": "161016179",
           "user": "martindick56",
           "uid": "2814669"
         },
@@ -87772,15 +88662,16 @@
           "leaf_type": "broadleaved",
           "natural": "tree",
           "note": "data: November 2023",
-          "source": "Wikipedia: Naturdenkmäler Burgenland",
+          "propagation": "natural",
+          "source": "Wikipedia: Naturdenkmäler Burgenland MA-025",
           "species": "Sorbus domestica",
           "species:de": "Speierling"
         },
         "relations": [],
         "meta": {
-          "timestamp": "2024-09-08T20:30:53Z",
-          "version": "2",
-          "changeset": "156368420",
+          "timestamp": "2025-01-05T11:32:48Z",
+          "version": "3",
+          "changeset": "161016628",
           "user": "martindick56",
           "uid": "2814669"
         },
@@ -87818,15 +88709,16 @@
           "leaf_type": "broadleaved",
           "natural": "tree",
           "note": "data: November 2023",
-          "source": "Wikipedia: Naturdenkmäler Burgenland",
+          "propagation": "natural",
+          "source": "Wikipedia: Naturdenkmäler Burgenland MA-028",
           "species": "Sorbus domestica",
           "species:de": "Speierling"
         },
         "relations": [],
         "meta": {
-          "timestamp": "2024-09-08T20:29:48Z",
-          "version": "2",
-          "changeset": "156368383",
+          "timestamp": "2025-01-05T11:30:10Z",
+          "version": "3",
+          "changeset": "161016548",
           "user": "martindick56",
           "uid": "2814669"
         },
@@ -87864,15 +88756,16 @@
           "leaf_type": "broadleaved",
           "natural": "tree",
           "note": "data: November 2023",
-          "source": "Wikipedia: Naturdenkmäler Burgenland",
+          "propagation": "planted",
+          "source": "Wikipedia: Naturdenkmäler Burgenland MA-027",
           "species": "Sorbus domestica",
           "species:de": "Speierling"
         },
         "relations": [],
         "meta": {
-          "timestamp": "2024-09-08T20:39:31Z",
-          "version": "2",
-          "changeset": "156368657",
+          "timestamp": "2025-01-05T11:35:59Z",
+          "version": "3",
+          "changeset": "161016734",
           "user": "martindick56",
           "uid": "2814669"
         },
@@ -87910,15 +88803,16 @@
           "leaf_type": "broadleaved",
           "natural": "tree",
           "note": "data: November 2023",
-          "source": "Wikipedia: Naturdenkmäler Burgenland",
+          "propagation": "planted",
+          "source": "Wikipedia: Naurdenkmäler Burgenland MA-013",
           "species": "Sorbus domestica",
           "species:de": "Speierling"
         },
         "relations": [],
         "meta": {
-          "timestamp": "2024-09-08T20:33:39Z",
-          "version": "2",
-          "changeset": "156368505",
+          "timestamp": "2025-01-05T11:41:31Z",
+          "version": "3",
+          "changeset": "161016928",
           "user": "martindick56",
           "uid": "2814669"
         },
@@ -87956,15 +88850,16 @@
           "leaf_type": "broadleaved",
           "natural": "tree",
           "note": "data: November 2023",
-          "source": "Wikipedia: Naturdenkmäler Burgenland",
+          "propagation": "natural",
+          "source": "Wikipedia: Naturdenkmäler Burgenland MA-038",
           "species": "Sorbus domestica",
           "species:de": "Speierling"
         },
         "relations": [],
         "meta": {
-          "timestamp": "2024-09-08T20:37:45Z",
-          "version": "2",
-          "changeset": "156368610",
+          "timestamp": "2025-01-05T11:38:28Z",
+          "version": "3",
+          "changeset": "161016829",
           "user": "martindick56",
           "uid": "2814669"
         },
@@ -88002,15 +88897,16 @@
           "leaf_type": "broadleaved",
           "natural": "tree",
           "note": "data: November 2023",
-          "source": "Wikipedia: Naturdenkmäler Burgenland",
+          "propagation": "planted",
+          "source": "Wikipedia: Naturdenkmäler Burgenland MA-41",
           "species": "Sorbus domestica",
           "species:de": "Speierling"
         },
         "relations": [],
         "meta": {
-          "timestamp": "2024-09-08T20:43:12Z",
-          "version": "2",
-          "changeset": "156368724",
+          "timestamp": "2025-01-05T11:43:34Z",
+          "version": "3",
+          "changeset": "161017013",
           "user": "martindick56",
           "uid": "2814669"
         },
@@ -88048,15 +88944,16 @@
           "leaf_type": "broadleaved",
           "natural": "tree",
           "note": "data: November 2023",
-          "source": "Wikipedia: Naturdenkmäler Burgenland",
+          "propagation": "natural",
+          "source": "Wikipedia: Naturdenkmäler Burgenland MA-036",
           "species": "Sorbus domestica",
           "species:de": "Speierling"
         },
         "relations": [],
         "meta": {
-          "timestamp": "2024-09-08T20:46:54Z",
-          "version": "2",
-          "changeset": "156368823",
+          "timestamp": "2025-01-05T11:45:38Z",
+          "version": "3",
+          "changeset": "161017070",
           "user": "martindick56",
           "uid": "2814669"
         },
@@ -88093,15 +88990,16 @@
           "leaf_type": "broadleaved",
           "natural": "tree",
           "note": "data: November 2023",
-          "source": "Wikipedia: Naturdenkmäler Burgenland",
+          "propagation": "natural",
+          "source": "Wikipedia: Naturdenkmäler Burgenland MA-023",
           "species": "Sorbus domestica",
           "species:de": "Speierling"
         },
         "relations": [],
         "meta": {
-          "timestamp": "2024-09-08T20:51:01Z",
-          "version": "2",
-          "changeset": "156368918",
+          "timestamp": "2025-01-05T11:48:37Z",
+          "version": "3",
+          "changeset": "161017194",
           "user": "martindick56",
           "uid": "2814669"
         },
@@ -88139,15 +89037,16 @@
           "leaf_type": "broadleaved",
           "natural": "tree",
           "note": "data: November 2023",
-          "source": "Wikipedia: Naturdenkmäler Burgenland",
+          "propagation": "planted",
+          "source": "Wikipedia: Naturdenkmäler Burgenland OP-050",
           "species": "Sorbus domestica",
           "species:de": "Speierling"
         },
         "relations": [],
         "meta": {
-          "timestamp": "2024-09-08T20:58:47Z",
-          "version": "2",
-          "changeset": "156369111",
+          "timestamp": "2025-01-05T11:54:16Z",
+          "version": "3",
+          "changeset": "161017380",
           "user": "martindick56",
           "uid": "2814669"
         },
@@ -88185,15 +89084,16 @@
           "leaf_type": "broadleaved",
           "natural": "tree",
           "note": "data: November 2023",
-          "source": "Wikipedia: Naturdenkmäler Burgenland",
+          "power": "Wikipedia: Naturdenkmäler Burgenland OP-51",
+          "propagation": "planted",
           "species": "Sorbus domestica",
           "species:de": "Speierling"
         },
         "relations": [],
         "meta": {
-          "timestamp": "2024-09-08T21:10:54Z",
-          "version": "2",
-          "changeset": "156369406",
+          "timestamp": "2025-01-05T11:57:12Z",
+          "version": "3",
+          "changeset": "161017458",
           "user": "martindick56",
           "uid": "2814669"
         },
@@ -88231,15 +89131,16 @@
           "leaf_type": "broadleaved",
           "natural": "tree",
           "note": "data: November 2023",
-          "source": "Wikipedia: Naturdenkmäler Burgenland",
+          "propagation": "planted",
+          "source": "Wikipedia: Naturdenkmäler Burgenland OP-052",
           "species": "Sorbus domestica",
           "species:de": "Speierling"
         },
         "relations": [],
         "meta": {
-          "timestamp": "2024-09-08T21:09:45Z",
-          "version": "2",
-          "changeset": "156369372",
+          "timestamp": "2025-01-05T11:57:12Z",
+          "version": "3",
+          "changeset": "161017458",
           "user": "martindick56",
           "uid": "2814669"
         },
@@ -88277,15 +89178,16 @@
           "leaf_type": "broadleaved",
           "natural": "tree",
           "note": "data: November 2023",
-          "source": "Wikipedia: Naturdenkmäler Burgenland",
+          "propagation": "planted",
+          "source": "Wikipedia: Naturdenkmäler Burgenland OP-053",
           "species": "Sorbus domestica",
           "species:de": "Speierling"
         },
         "relations": [],
         "meta": {
-          "timestamp": "2024-09-08T21:03:27Z",
-          "version": "2",
-          "changeset": "156369206",
+          "timestamp": "2025-01-05T12:00:46Z",
+          "version": "3",
+          "changeset": "161017557",
           "user": "martindick56",
           "uid": "2814669"
         },
@@ -88323,15 +89225,16 @@
           "leaf_type": "broadleaved",
           "natural": "tree",
           "note": "data: November 2023",
-          "source": "Wikipedia: Naturdenkmäler Burgenland",
+          "propagation": "planted",
+          "source": "Wikipedia: Naturdenkmäler Burgenland OP-127",
           "species": "Sorbus domestica",
           "species:de": "Speierling"
         },
         "relations": [],
         "meta": {
-          "timestamp": "2024-09-08T21:16:43Z",
-          "version": "2",
-          "changeset": "156369607",
+          "timestamp": "2025-01-05T12:07:23Z",
+          "version": "3",
+          "changeset": "161017758",
           "user": "martindick56",
           "uid": "2814669"
         },
@@ -88370,17 +89273,18 @@
           "leaf_type": "broadleaved",
           "name": "Speierling",
           "natural": "tree",
+          "propagation": "natural",
           "protect_class": "3",
           "ref": "BN-080",
-          "source": "Wikipedia: Naturdenkmäler Niederösterreich",
+          "source": "Wikipedia: Naturdenkmäler Niederösterreich, BN-080",
           "species": "Sorbus domestica",
           "species:de": "Speierling"
         },
         "relations": [],
         "meta": {
-          "timestamp": "2024-09-09T17:08:18Z",
-          "version": "2",
-          "changeset": "156405163",
+          "timestamp": "2025-01-05T16:17:14Z",
+          "version": "3",
+          "changeset": "161027065",
           "user": "martindick56",
           "uid": "2814669"
         },
@@ -88418,15 +89322,16 @@
           "leaf_type": "broadleaved",
           "natural": "tree",
           "note": "data: November 2023",
-          "source": "Wikipedia: Naturdenkmäler Niederösterreich",
+          "propagation": "natural",
+          "source": "Wikipedia: Naturdenkmäler Niederösterreich, BN-144",
           "species": "Sorbus domestica",
           "species:de": "Speierling"
         },
         "relations": [],
         "meta": {
-          "timestamp": "2024-09-09T17:04:16Z",
-          "version": "2",
-          "changeset": "156405005",
+          "timestamp": "2025-01-05T16:19:31Z",
+          "version": "3",
+          "changeset": "161027173",
           "user": "martindick56",
           "uid": "2814669"
         },
@@ -88464,14 +89369,16 @@
           "leaf_type": "broadleaved",
           "natural": "tree",
           "note": "data: November 2023",
+          "propagation": "planted",
+          "source": "Wikipedia: Naturdenkmäler Niederösterreich MD-012",
           "species": "Sorbus domestica",
           "species:de": "Speierling"
         },
         "relations": [],
         "meta": {
-          "timestamp": "2023-11-21T22:48:21Z",
-          "version": "1",
-          "changeset": "144305353",
+          "timestamp": "2025-01-05T16:06:42Z",
+          "version": "2",
+          "changeset": "161026612",
           "user": "martindick56",
           "uid": "2814669"
         },
@@ -88509,15 +89416,15 @@
           "leaf_type": "broadleaved",
           "natural": "tree",
           "note": "data: November 2023",
-          "source": "Wikipedia: Naturdenkmäler Niederösterreich",
+          "source": "Wikipedia: Naturdenkmäler Niederösterreich,  NK-185",
           "species": "Sorbus domestica",
           "species:de": "Speierling"
         },
         "relations": [],
         "meta": {
-          "timestamp": "2024-09-09T17:36:03Z",
-          "version": "3",
-          "changeset": "156406533",
+          "timestamp": "2025-01-05T16:09:06Z",
+          "version": "4",
+          "changeset": "161026722",
           "user": "martindick56",
           "uid": "2814669"
         },
@@ -88555,15 +89462,16 @@
           "leaf_type": "broadleaved",
           "natural": "tree",
           "note": "data: November 2023",
-          "source": "Wikipedia: Naturdenkmäler Niederösterreich",
+          "propagation": "planted",
+          "source": "Wikipedia: Naturdenkmäler Niederösterreich, WB-106",
           "species": "Sorbus domestica",
           "species:de": "Speierling"
         },
         "relations": [],
         "meta": {
-          "timestamp": "2024-09-09T17:50:48Z",
-          "version": "2",
-          "changeset": "156407113",
+          "timestamp": "2025-01-05T16:14:33Z",
+          "version": "3",
+          "changeset": "161026938",
           "user": "martindick56",
           "uid": "2814669"
         },
@@ -88600,15 +89508,16 @@
           "leaf_type": "broadleaved",
           "natural": "tree",
           "note": "data: November 2023",
-          "source": "Wikipedia: Naturdenkmäler Niederösterreich",
+          "propagation": "planted",
+          "source": "Wikipedia: Naturdenkmäler Niederösterreich , WB-050",
           "species": "Sorbus domestica",
           "species:de": "Speierling"
         },
         "relations": [],
         "meta": {
-          "timestamp": "2024-09-09T17:43:29Z",
-          "version": "3",
-          "changeset": "156406842",
+          "timestamp": "2025-01-05T16:13:02Z",
+          "version": "4",
+          "changeset": "161026875",
           "user": "martindick56",
           "uid": "2814669"
         },
@@ -88867,6 +89776,7 @@
           "leaf_type": "broadleaved",
           "natural": "tree",
           "note": "data: September 2024, data added and corrected",
+          "propagation": "planted",
           "source": "Baumkataster Wien MA 28,  262",
           "species": "Sorbus domestica",
           "species:de": "Speierling",
@@ -88874,9 +89784,9 @@
         },
         "relations": [],
         "meta": {
-          "timestamp": "2024-09-06T20:57:46Z",
-          "version": "2",
-          "changeset": "156292373",
+          "timestamp": "2025-01-05T17:27:08Z",
+          "version": "3",
+          "changeset": "161029970",
           "user": "martindick56",
           "uid": "2814669"
         },
@@ -88912,6 +89822,7 @@
           "leaf_type": "broadleaved",
           "natural": "tree",
           "note": "data: September 2024",
+          "propagation": "planted",
           "source": "Baumkataster Wien MA 28, 261",
           "species": "Sorbus domestica",
           "species:de": "Speierling",
@@ -88919,9 +89830,9 @@
         },
         "relations": [],
         "meta": {
-          "timestamp": "2024-09-06T20:53:37Z",
-          "version": "2",
-          "changeset": "156292254",
+          "timestamp": "2025-01-05T17:28:14Z",
+          "version": "3",
+          "changeset": "161029996",
           "user": "martindick56",
           "uid": "2814669"
         },
@@ -88956,14 +89867,15 @@
           "leaf_type": "broadleaved",
           "natural": "tree",
           "note": "data: August 2024",
+          "propagation": "natural",
           "species": "Sorbus domestica",
           "species:de": "Speierling"
         },
         "relations": [],
         "meta": {
-          "timestamp": "2024-09-02T11:16:57Z",
-          "version": "1",
-          "changeset": "156093182",
+          "timestamp": "2025-01-05T12:12:16Z",
+          "version": "2",
+          "changeset": "161017900",
           "user": "martindick56",
           "uid": "2814669"
         },
@@ -89001,6 +89913,7 @@
           "leaf_type": "broadleaved",
           "natural": "tree",
           "note": "data: September 2024",
+          "propagation": "planted",
           "source": "Baumkataster Wien, MA 42, Nr. 108",
           "species": "Sorbus domestica",
           "species:de": "Speierling",
@@ -89008,9 +89921,9 @@
         },
         "relations": [],
         "meta": {
-          "timestamp": "2024-09-05T20:40:22Z",
-          "version": "1",
-          "changeset": "156248127",
+          "timestamp": "2025-01-05T17:19:01Z",
+          "version": "2",
+          "changeset": "161029585",
           "user": "martindick56",
           "uid": "2814669"
         },
@@ -89046,6 +89959,7 @@
           "leaf_type": "broadleaved",
           "natural": "tree",
           "note": "data: September 2024",
+          "propagation": "planted",
           "source": "Baumkataster Wien, MA 42,  33",
           "species": "Sorbus domestica",
           "species:de": "Speierling",
@@ -89053,9 +89967,9 @@
         },
         "relations": [],
         "meta": {
-          "timestamp": "2024-09-06T21:33:40Z",
-          "version": "2",
-          "changeset": "156293221",
+          "timestamp": "2025-01-05T19:10:18Z",
+          "version": "3",
+          "changeset": "161033206",
           "user": "martindick56",
           "uid": "2814669"
         },
@@ -89133,15 +90047,16 @@
           "leaf_type": "broadleaved",
           "natural": "tree",
           "note": "data: September 2024",
+          "propagation": "planted",
           "source": "Baumkataster Wien, MA 45, 2",
           "species": "Sorbus domestica",
           "species:de": "Speierling"
         },
         "relations": [],
         "meta": {
-          "timestamp": "2024-09-06T20:11:46Z",
-          "version": "1",
-          "changeset": "156291050",
+          "timestamp": "2025-01-05T17:22:23Z",
+          "version": "2",
+          "changeset": "161029758",
           "user": "martindick56",
           "uid": "2814669"
         },
@@ -89177,6 +90092,7 @@
           "leaf_type": "broadleaved",
           "natural": "tree",
           "note": "data: September  2024",
+          "propagation": "planted",
           "source": "Baumkataster Wien MA 42, 302",
           "species": "Sorbus domestica",
           "species:de": "Speierling",
@@ -89184,9 +90100,9 @@
         },
         "relations": [],
         "meta": {
-          "timestamp": "2024-09-06T21:14:37Z",
-          "version": "1",
-          "changeset": "156292785",
+          "timestamp": "2025-01-05T17:29:44Z",
+          "version": "2",
+          "changeset": "161030042",
           "user": "martindick56",
           "uid": "2814669"
         },
@@ -89222,6 +90138,7 @@
           "leaf_type": "broadleaved",
           "natural": "tree",
           "note": "data: September 2024",
+          "propagation": "planted",
           "source": "Baumkataster Wien  MA 42, 3075",
           "species": "Sorbus domestica",
           "species:de": "Speierling",
@@ -89229,9 +90146,9 @@
         },
         "relations": [],
         "meta": {
-          "timestamp": "2024-09-06T21:25:03Z",
-          "version": "1",
-          "changeset": "156293030",
+          "timestamp": "2025-01-05T18:50:06Z",
+          "version": "2",
+          "changeset": "161032573",
           "user": "martindick56",
           "uid": "2814669"
         },
@@ -89267,6 +90184,7 @@
           "leaf_type": "broadleaved",
           "natural": "tree",
           "note": "data: September 2024",
+          "propagation": "planted",
           "source": "Baumkataster Wien MA 42,  35040",
           "species": "Sorbus domestica",
           "species:de": "Speierling",
@@ -89274,9 +90192,9 @@
         },
         "relations": [],
         "meta": {
-          "timestamp": "2024-09-06T21:50:36Z",
-          "version": "1",
-          "changeset": "156293540",
+          "timestamp": "2025-01-05T19:18:22Z",
+          "version": "2",
+          "changeset": "161033432",
           "user": "martindick56",
           "uid": "2814669"
         },
@@ -89313,15 +90231,16 @@
           "leaf_type": "broadleaved",
           "natural": "tree",
           "note": "data: September 2024",
+          "propagation": "planted",
           "source": "Baumkataster Wien MA 56, 41",
           "species": "Sorbus domestica",
           "species:de": "Speierling"
         },
         "relations": [],
         "meta": {
-          "timestamp": "2024-09-07T07:55:21Z",
-          "version": "1",
-          "changeset": "156302053",
+          "timestamp": "2025-01-05T19:21:55Z",
+          "version": "2",
+          "changeset": "161033531",
           "user": "martindick56",
           "uid": "2814669"
         },
@@ -89358,15 +90277,16 @@
           "leaf_type": "broadleaved",
           "natural": "tree",
           "note": "data: September 2024",
+          "propagation": "planted",
           "source": "Baumkataster Wien MA 56, 42",
           "species": "Sorbus domestica",
           "species:de": "Speierling"
         },
         "relations": [],
         "meta": {
-          "timestamp": "2024-09-07T07:58:47Z",
-          "version": "1",
-          "changeset": "156302133",
+          "timestamp": "2025-01-05T19:21:55Z",
+          "version": "2",
+          "changeset": "161033531",
           "user": "martindick56",
           "uid": "2814669"
         },
@@ -89403,15 +90323,16 @@
           "leaf_type": "broadleaved",
           "natural": "tree",
           "note": "data: September 2024",
+          "propagation": "planted",
           "source": "Baumkataster Wien MA 56,  48",
           "species": "Sorbus domestica",
           "species:de": "Speierling"
         },
         "relations": [],
         "meta": {
-          "timestamp": "2024-12-07T15:04:25Z",
-          "version": "3",
-          "changeset": "160030150",
+          "timestamp": "2025-01-05T19:21:55Z",
+          "version": "4",
+          "changeset": "161033531",
           "user": "martindick56",
           "uid": "2814669"
         },
@@ -89448,15 +90369,16 @@
           "leaf_type": "broadleaved",
           "natural": "tree",
           "note": "data: September 2024",
+          "propagation": "planted",
           "source": "Baumkataster Wien MA 42, N13",
           "species": "Sorbus domestica",
           "species:de": "Speierling"
         },
         "relations": [],
         "meta": {
-          "timestamp": "2024-09-07T08:08:03Z",
-          "version": "1",
-          "changeset": "156302444",
+          "timestamp": "2025-01-05T19:23:57Z",
+          "version": "2",
+          "changeset": "161033612",
           "user": "martindick56",
           "uid": "2814669"
         },
@@ -89581,15 +90503,16 @@
           "leaf_type": "broadleaved",
           "natural": "tree",
           "note": "data: September 2024",
+          "propagation": "planted",
           "source": "Wien Umweltgut Naturschutz Naturdenkmal Nr. 7 / Wikipedia",
           "species": "Sorbus domestica",
           "species:de": "Speierling"
         },
         "relations": [],
         "meta": {
-          "timestamp": "2024-09-07T09:29:46Z",
-          "version": "1",
-          "changeset": "156304989",
+          "timestamp": "2025-01-06T11:32:38Z",
+          "version": "3",
+          "changeset": "161053465",
           "user": "martindick56",
           "uid": "2814669"
         },
@@ -89606,8 +90529,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.3374849,
-          48.2652567,
+          16.3375225,
+          48.2654277,
           388.0610656738281
         ]
       }
@@ -89623,14 +90546,15 @@
           "leaf_type": "broadleaved",
           "natural": "tree",
           "note": "data: September 2024",
+          "propagation": "planted",
           "species": "Sorbus domestica",
           "species:de": "Speierling"
         },
         "relations": [],
         "meta": {
-          "timestamp": "2024-10-22T18:24:18Z",
-          "version": "2",
-          "changeset": "158224163",
+          "timestamp": "2025-01-05T20:31:30Z",
+          "version": "3",
+          "changeset": "161035509",
           "user": "martindick56",
           "uid": "2814669"
         },
@@ -89666,14 +90590,15 @@
           "leaf_type": "broadleaved",
           "natural": "tree",
           "note:ja": "data: September 2024",
+          "propagation": "planted",
           "species": "Sorbus domestica",
           "species:de": "Speierling"
         },
         "relations": [],
         "meta": {
-          "timestamp": "2024-10-22T19:02:54Z",
-          "version": "2",
-          "changeset": "158225507",
+          "timestamp": "2025-01-05T20:37:44Z",
+          "version": "3",
+          "changeset": "161035662",
           "user": "martindick56",
           "uid": "2814669"
         },
@@ -89709,14 +90634,15 @@
           "leaf_type": "broadleaved",
           "natural": "tree",
           "note": "data: September 2024",
+          "propagation": "planted",
           "species": "Sorbus domestica",
           "species:de": "Speierling"
         },
         "relations": [],
         "meta": {
-          "timestamp": "2024-10-22T19:04:34Z",
-          "version": "2",
-          "changeset": "158225564",
+          "timestamp": "2025-01-05T20:33:52Z",
+          "version": "3",
+          "changeset": "161035572",
           "user": "martindick56",
           "uid": "2814669"
         },
@@ -89752,14 +90678,15 @@
           "leaf_type": "broadleaved",
           "natural": "tree",
           "note": "data: September 2024",
+          "propagation": "planted",
           "species": "Sorbus domestica",
           "species:de": "Speierling"
         },
         "relations": [],
         "meta": {
-          "timestamp": "2024-10-22T18:36:20Z",
-          "version": "2",
-          "changeset": "158224593",
+          "timestamp": "2025-01-05T20:40:10Z",
+          "version": "3",
+          "changeset": "161035726",
           "user": "martindick56",
           "uid": "2814669"
         },
@@ -89795,14 +90722,15 @@
           "leaf_type": "broadleaved",
           "natural": "tree",
           "note": "data: September 2024",
+          "propagation": "planted",
           "species": "Sorbus domestica",
           "species:de": "Speierling"
         },
         "relations": [],
         "meta": {
-          "timestamp": "2024-10-22T18:57:28Z",
-          "version": "2",
-          "changeset": "158225308",
+          "timestamp": "2025-01-05T20:57:44Z",
+          "version": "4",
+          "changeset": "161036166",
           "user": "martindick56",
           "uid": "2814669"
         },
@@ -89821,7 +90749,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.3124869,
+          17.3124871,
           48.3413828,
           195.4662628173828
         ]
@@ -89838,14 +90766,15 @@
           "leaf_type": "broadleaved",
           "natural": "tree",
           "note": "data: September 2024, check position",
+          "propagation": "planted",
           "species": "Sorbus domestica",
           "species:de": "Speierling"
         },
         "relations": [],
         "meta": {
-          "timestamp": "2024-12-04T16:27:55Z",
-          "version": "3",
-          "changeset": "159925569",
+          "timestamp": "2025-01-05T20:57:44Z",
+          "version": "5",
+          "changeset": "161036166",
           "user": "martindick56",
           "uid": "2814669"
         },
@@ -89864,8 +90793,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.3125654,
-          48.3413668,
+          17.3125412,
+          48.3413946,
           195.46920776367188
         ]
       }
@@ -89881,14 +90810,15 @@
           "leaf_type": "broadleaved",
           "natural": "tree",
           "note": "data: September 2024",
+          "propagation": "planted",
           "species": "Sorbus domestica",
           "species:de": "Speierling"
         },
         "relations": [],
         "meta": {
-          "timestamp": "2024-10-22T19:21:01Z",
-          "version": "2",
-          "changeset": "158226072",
+          "timestamp": "2025-01-05T13:01:20Z",
+          "version": "4",
+          "changeset": "161019508",
           "user": "martindick56",
           "uid": "2814669"
         },
@@ -89907,8 +90837,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.0427331,
-          47.7593925,
+          16.0427231,
+          47.7593599,
           485.9609375
         ]
       }
@@ -89924,14 +90854,15 @@
           "leaf_type": "broadleaved",
           "natural": "tree",
           "note": "data: September 2024",
+          "propagation": "planted",
           "species": "Sorbus domestica",
           "species:de": "Speierling"
         },
         "relations": [],
         "meta": {
-          "timestamp": "2024-10-22T19:32:10Z",
-          "version": "2",
-          "changeset": "158226458",
+          "timestamp": "2025-01-05T13:08:21Z",
+          "version": "4",
+          "changeset": "161019729",
           "user": "martindick56",
           "uid": "2814669"
         },
@@ -89950,8 +90881,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.0413476,
-          47.7598145,
+          16.0413261,
+          47.7597999,
           486.5563049316406
         ]
       }
@@ -89968,14 +90899,15 @@
           "leaf_type": "broadleaved",
           "natural": "tree",
           "note": "data: September 2024",
+          "propagation": "planted",
           "species": "Sorbus domestica",
           "species:de": "Speierling"
         },
         "relations": [],
         "meta": {
-          "timestamp": "2024-10-22T19:30:11Z",
-          "version": "3",
-          "changeset": "158226377",
+          "timestamp": "2025-01-05T13:14:54Z",
+          "version": "5",
+          "changeset": "161019962",
           "user": "martindick56",
           "uid": "2814669"
         },
@@ -89994,8 +90926,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.0404816,
-          47.7603902,
+          16.0404252,
+          47.7603789,
           487.0013427734375
         ]
       }
@@ -90011,14 +90943,15 @@
           "leaf_type": "broadleaved",
           "natural": "tree",
           "note": "data: September  2024",
+          "propagation": "natural",
           "species": "Sorbus domestica",
           "species:de": "Speierling"
         },
         "relations": [],
         "meta": {
-          "timestamp": "2024-10-22T19:40:14Z",
-          "version": "2",
-          "changeset": "158226752",
+          "timestamp": "2025-01-05T13:39:00Z",
+          "version": "4",
+          "changeset": "161020727",
           "user": "martindick56",
           "uid": "2814669"
         },
@@ -90037,8 +90970,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.0392238,
-          47.7607383,
+          16.0392243,
+          47.7607327,
           487.5342102050781
         ]
       }
@@ -90054,14 +90987,15 @@
           "leaf_type": "broadleaved",
           "natural": "tree",
           "note": "data: September 2024",
+          "propagation": "natural",
           "species": "Sorbus domestica",
           "species:de": "Speierling"
         },
         "relations": [],
         "meta": {
-          "timestamp": "2024-10-22T19:36:49Z",
-          "version": "2",
-          "changeset": "158226631",
+          "timestamp": "2025-01-05T13:21:22Z",
+          "version": "4",
+          "changeset": "161020169",
           "user": "martindick56",
           "uid": "2814669"
         },
@@ -90080,8 +91014,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.0392776,
-          47.7608545,
+          16.0392661,
+          47.7608509,
           487.5420227050781
         ]
       }
@@ -90097,14 +91031,15 @@
           "leaf_type": "broadleaved",
           "natural": "tree",
           "note": "data: September 2024",
+          "propagation": "natural",
           "species": "Sorbus domestica",
           "species:de": "Speierling"
         },
         "relations": [],
         "meta": {
-          "timestamp": "2024-10-22T19:46:11Z",
-          "version": "2",
-          "changeset": "158226943",
+          "timestamp": "2025-01-05T13:44:57Z",
+          "version": "4",
+          "changeset": "161020908",
           "user": "martindick56",
           "uid": "2814669"
         },
@@ -90123,8 +91058,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.0393596,
-          47.7619417,
+          16.0393521,
+          47.7619349,
           487.76641845703125
         ]
       }
@@ -90140,14 +91075,15 @@
           "leaf_type": "broadleaved",
           "natural": "tree",
           "note": "data: September 2024",
+          "propagation": "natural",
           "species": "Sorbus domestica",
           "species:de": "Speierling"
         },
         "relations": [],
         "meta": {
-          "timestamp": "2024-10-22T19:51:25Z",
-          "version": "3",
-          "changeset": "158227141",
+          "timestamp": "2025-01-05T13:48:49Z",
+          "version": "5",
+          "changeset": "161021053",
           "user": "martindick56",
           "uid": "2814669"
         },
@@ -90166,8 +91102,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.0394412,
-          47.7619509,
+          16.0394381,
+          47.7619459,
           487.7392272949219
         ]
       }
@@ -90184,14 +91120,15 @@
           "leaf_type": "broadleaved",
           "natural": "tree",
           "note": "data: September 2024",
+          "propagation": "natural",
           "species": "Sorbus domestica",
           "species:de": "Speierling"
         },
         "relations": [],
         "meta": {
-          "timestamp": "2024-10-22T20:00:44Z",
-          "version": "4",
-          "changeset": "158227413",
+          "timestamp": "2025-01-05T13:59:23Z",
+          "version": "6",
+          "changeset": "161021422",
           "user": "martindick56",
           "uid": "2814669"
         },
@@ -90210,8 +91147,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.0393192,
-          47.7621625,
+          16.0393091,
+          47.7621599,
           487.8324890136719
         ]
       }
@@ -90227,14 +91164,15 @@
           "leaf_type": "broadleaved",
           "natural": "tree",
           "note": "data: September 2024",
+          "propagation": "natural",
           "species": "Sorbus domestica",
           "species:de": "Speierling"
         },
         "relations": [],
         "meta": {
-          "timestamp": "2024-10-22T19:55:11Z",
-          "version": "2",
-          "changeset": "158227291",
+          "timestamp": "2025-01-05T14:39:51Z",
+          "version": "5",
+          "changeset": "161023007",
           "user": "martindick56",
           "uid": "2814669"
         },
@@ -90253,8 +91191,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.0396317,
-          47.7620327,
+          16.0396311,
+          47.7620309,
           487.6898498535156
         ]
       }
@@ -90270,14 +91208,15 @@
           "leaf_type": "broadleaved",
           "natural": "tree",
           "note": "data: September 2024",
+          "propagation": "natural",
           "species": "Sorbus domestica",
           "species:de": "Speierling"
         },
         "relations": [],
         "meta": {
-          "timestamp": "2024-10-22T20:05:16Z",
-          "version": "2",
-          "changeset": "158227560",
+          "timestamp": "2025-01-05T14:04:16Z",
+          "version": "4",
+          "changeset": "161021605",
           "user": "martindick56",
           "uid": "2814669"
         },
@@ -90296,8 +91235,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.0394632,
-          47.7622667,
+          16.0394591,
+          47.7622779,
           487.8050537109375
         ]
       }
@@ -90313,14 +91252,15 @@
           "leaf_type": "broadleaved",
           "natural": "tree",
           "note": "data: October 2024  gps-data uncertain",
+          "propagation": "planted",
           "species": "Sorbus domestica",
           "species:de": "Speierling"
         },
         "relations": [],
         "meta": {
-          "timestamp": "2024-10-19T20:07:48Z",
-          "version": "1",
-          "changeset": "158105979",
+          "timestamp": "2025-01-05T15:58:22Z",
+          "version": "2",
+          "changeset": "161026283",
           "user": "martindick56",
           "uid": "2814669"
         },
@@ -90357,14 +91297,15 @@
           "leaf_type": "broadleaved",
           "natural": "tree",
           "note": "data: September 2024, gps-data uncertain",
+          "propagation": "planted",
           "species": "Sorbus domestica",
           "species:de": "Speierling"
         },
         "relations": [],
         "meta": {
-          "timestamp": "2024-10-22T21:38:04Z",
-          "version": "2",
-          "changeset": "158230160",
+          "timestamp": "2025-01-05T15:59:46Z",
+          "version": "3",
+          "changeset": "161026335",
           "user": "martindick56",
           "uid": "2814669"
         },
@@ -90400,14 +91341,15 @@
           "leaf_type": "broadleaved",
           "natural": "tree",
           "note": "data: September 2024",
+          "propagation": "planted",
           "species": "Sorbus domestica",
           "species:de": "Speierling"
         },
         "relations": [],
         "meta": {
-          "timestamp": "2024-12-04T16:09:08Z",
-          "version": "2",
-          "changeset": "159924934",
+          "timestamp": "2025-01-05T20:57:44Z",
+          "version": "3",
+          "changeset": "161036166",
           "user": "martindick56",
           "uid": "2814669"
         },
@@ -90444,15 +91386,16 @@
           "leaf_type": "broadleaved",
           "natural": "tree",
           "note": "data: November 2023",
-          "source": "Wikipedia: Naturdenkmäler Burgenland",
+          "propagation": "natural",
+          "source": "Wikipedia: Naturdenkmäler Burgenland;MA-022",
           "species": "Sorbus domestica",
           "species:de": "Speierling"
         },
         "relations": [],
         "meta": {
-          "timestamp": "2024-12-06T18:17:35Z",
-          "version": "2",
-          "changeset": "160004818",
+          "timestamp": "2025-01-05T11:08:25Z",
+          "version": "3",
+          "changeset": "161015749",
           "user": "martindick56",
           "uid": "2814669"
         },
@@ -90490,15 +91433,16 @@
           "leaf_type": "broadleaved",
           "natural": "tree",
           "note": "data: December 2024",
+          "propagation": "planted",
           "source": "Baumkataster Wien MA 42, 2014",
           "species": "Sorbus domestica",
           "species:de": "Speierling"
         },
         "relations": [],
         "meta": {
-          "timestamp": "2024-12-07T13:30:44Z",
-          "version": "1",
-          "changeset": "160027055",
+          "timestamp": "2025-01-05T17:25:37Z",
+          "version": "2",
+          "changeset": "161029914",
           "user": "martindick56",
           "uid": "2814669"
         },
@@ -90533,14 +91477,15 @@
           "leaf_type": "broadleaved",
           "natural": "tree",
           "note": "data: December 2024",
+          "propagation": "planted",
           "species": "Sorbus domestica",
           "species:de": "Speierling"
         },
         "relations": [],
         "meta": {
-          "timestamp": "2024-12-21T21:01:08Z",
-          "version": "1",
-          "changeset": "160483288",
+          "timestamp": "2025-01-05T12:39:45Z",
+          "version": "2",
+          "changeset": "161018832",
           "user": "martindick56",
           "uid": "2814669"
         },
