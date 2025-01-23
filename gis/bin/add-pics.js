@@ -33,14 +33,37 @@ function addMeta(geodata){
 
     for (let i=0;i<geo.features.length;i++){
 	
-	let item=geo.features[i];
+	let properties=geo.features[i].properties;
 	
-        let id=item.properties.id;
+        let id=properties.id;
 	if(bilder[id]){
-	    geo.features[i].properties['pictures_url_prefix']='https://speierling.arglos.ch/node/'+id+'/';
-	    geo.features[i].properties['pictures']=bilder[id];
+	    properties['pictures_url_prefix']='https://speierling.arglos.ch/node/'+id+'/';
+	    properties['pictures']=bilder[id];
+
+
+	    // add media collection
+	    let mediaCollection = {
+		type: "mediaCollection",
+		pictures: [],
+		videos: [],
+		documents: []
+	    }
+
+	    //let properties= feature.properties
+	    if(properties.pictures){
+		let url = properties.pictures_url_prefix;
+		for(let i=0;i<properties.pictures.length;i++){
+		    let picture= properties.pictures[i];
+		    let medium = { picture: url+picture, thumb: url+'thumbs/'+picture }
+		    mediaCollection.pictures.push(medium);
+		}       
+		properties.media = mediaCollection;
+	    }
+	    
 	}
+	
     }
+    
     process.stdout.write(JSON.stringify(geo,null,2)+'\n');
 	    
 }

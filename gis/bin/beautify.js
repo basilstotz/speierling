@@ -10,6 +10,13 @@ function martin(text){
     return cleaned;
 }
 
+function decimalYear(dateString){
+    let date = new Date(dateString);
+    let zeit=date.getFullYear()+(1.0/12.0)*date.getMonth()+(1.0/365.0)*date.getDate();
+    return Math.round(zeit*1000)/1000.0
+}
+
+
 function clone(x){
     return JSON.parse(JSON.stringify(x))
 }
@@ -91,8 +98,12 @@ function beautifyFeature(feature){
 	    tags["propagation:parent"]=herkunft;
 	}
 
+	// mark neupflanzungen!!!
+        if( (tags.propagation=='graft' || tags.propagation=='seed') && tags['propagation:parent'] && tags.start_date){
+	    if(decimalYear(tags.start_date)>=2018.0)tags['speierlingproject:neupflanzung']='yes'
+	}
 
-
+	
         /* a sample project line 
         {
 	"Node": 12264455828,                  // not needed  
@@ -167,28 +178,7 @@ function beautifyFeature(feature){
     }
     if(feature.properties.nominatim){ delete feature.properties.nominatim }
 
-    // (maybe) copy meta to properties
-
-    // meta:timestamp maybe remove
-    //tags["meta:timestamp"]=feature.properties.meta.timestamp
-
-    /*
-    let tmpProperties= {};
-    
-    Object.entries(feature.properties).forEach ( ([key,value]) => {
-	if(!(key=="tags"||key=="meta"||key=="relations"))tmpProperties[key] = value;
-    });
-    Object.entries(feature.properties.meta).forEach ( ([key,value]) => {
-	tmpProperties[key] = value;
-    });
-    tmpProperties.tags=tags;
-    tmpProperties.meta=feature.properties.meta;
-    
-    feature.properties=tmpProperties;
-    //if(feature.properties.meta){ delete feature.properties.meta }
-    */
-    
-    
+        
     // claenup
     if(feature.properties.relations){ delete feature.properties.relations }
    

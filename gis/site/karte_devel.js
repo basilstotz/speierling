@@ -1,7 +1,15 @@
 //let offline=false;
 
 //let treesGeojson;
-                                
+function addGroth(geojson){
+
+    for(let i=0;i<geojson.features.length;i++){
+        let feature=geojson.features[i];
+        calcGroth(feature)
+    }
+
+    return geojson;
+}
 
 function addParent(geojson){
 
@@ -234,8 +242,9 @@ function addGeojsonLayer(responseText){
 
     // rapairTags and addParentIndex goes here
 
-    let geojsonLayer=addParent(JSON.parse(responseText));
-
+    let stageone =addParent(JSON.parse(responseText));
+    let geojsonLayer= addGroth(stageone);
+    
     let trees=L.geoJSON(geojsonLayer, {
         //style: style,
         //filter: filter,

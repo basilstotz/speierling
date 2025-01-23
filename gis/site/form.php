@@ -128,6 +128,10 @@ function httpGet(theUrl, callback)
 
     <!--- <h1 class="w3-jumbo w3-animate-top"><b>Projekt Speierling</b></h1> --->
 
+
+    <p class="w3-xlarge w3-center" style="margin-bottom:14px"><br/>Hier kannst du deine Mitteilung schreiben</p>
+
+
     <form action="" method="post">
 
 <!---
@@ -138,7 +142,7 @@ function httpGet(theUrl, callback)
       <input type="text" id="lname" name="lname"><br>
 --->
 
-  <label for="lname">Mitteilung:</label><br>
+  <label for="lname"></label><br>
   <textarea id="ltext" name="ltext" rows="15" cols="40"></textarea></br>
 
   <label for="lmail">Mail:</label><br>
@@ -148,7 +152,6 @@ function httpGet(theUrl, callback)
 
     </form>
 
-    <p class="w3-xlarge w3-center" id="statsA" style="margin-bottom:14px"><br/></p>
     <p class="w3-xlarge w3-center" id="statsB" style="margin-top:14px;margin-bottom:32px"><br/><br/></p>
 
 <!---
@@ -157,15 +160,18 @@ function httpGet(theUrl, callback)
 
   </div>
 
+  <div class="w3-display-topmiddle w3-padding-large">
+    <a id="link2" href="index.html" class="w3-center w3-animate-top"><button style="font-size:14px;padding:8px 8px;">Startseite</button></a>
+  </div>
 
 
+ <a href="https://speierling.arglos.ch/gis/site/index.html" ><img src="images/home.png" style="opacity:0.7;width:30px;position:absolute;left:10;top:10"></a>
+
+<!--
   <div class="w3-display-topleft w3-padding-large">
     <a href="https://speierling.arglos.ch/daten.php">Datenablage</a>
   </div>
 
-  <div class="w3-display-topmiddle w3-padding-large">
-    <a id="link2" href="index.html" class="w3-center w3-animate-top"><button style="font-size:14px;padding:8px 8px;">Startseite</button></a>
-  </div>
 
   <div class="w3-display-topright w3-padding-large">
      <a href="https://de.wikipedia.org/wiki/Speierling">Speierling auf Wikipedia</a>
@@ -175,6 +181,14 @@ function httpGet(theUrl, callback)
   <div class="w3-display-bottomleft w3-padding-large">
      Projektleitung: Martin Dick &amp; Christian Erdin
   </div>
+
+
+  <div class="w3-display-bottomright w3-padding-large">
+     <a href="https://www.anhbl.ch">Arbeitsgemeinschaft für Natur- und Heimatschutz Baselland</a>
+  </div>
+
+
+-->
 
 <!---
 .button {
@@ -193,11 +207,6 @@ function httpGet(theUrl, callback)
   <div class="w3-display-bottommiddle w3-padding-large w3-xlarge">
     <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.de"><img src="images/CC-BY-SA_icon.png" alt="" width="100px" style="opacity:0.5"></a>
   </div>
-
-  <div class="w3-display-bottomright w3-padding-large">
-     <a href="https://www.anhbl.ch">Arbeitsgemeinschaft für Natur- und Heimatschutz Baselland</a>
-  </div>
-
 
 </div>
 

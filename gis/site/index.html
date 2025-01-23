@@ -106,7 +106,7 @@ button {
 }
 </style>
 
-<!---
+<!--
 <script src="https://cdn.jsdelivr.net/npm/tsparticles-confetti@2.12.0/tsparticles.confetti.bundle.min.js"></script>
 ---->
 
@@ -126,13 +126,28 @@ function httpGet(theUrl, callback)
 }
 </script>
 
+  <script>
+    function getDestSuffix(){
+        let pathName=window.location.pathname;
+        let fileName=pathName.substring(pathName.lastIndexOf('/')+ 1);
+        if(fileName=='')fileName='index.html';
 
+        let destSuffix='.html';
+        if(fileName.split('_')[1])destSuffix='_'+fileName.split('_')[1];
+        return destSuffix
+    }
 
-<script>
-	function myfunc(){
-		document.getElementById("link").href = "karte.html";
-	}
-</script>
+    var destSuffix=getDestSuffix();
+    var devMode=(destSuffix!='.html');
+
+   function toMap(){
+       document.getElementById("link").href = 'karte'+destSuffix;;
+   }
+   function toStats(){
+       document.getElementById("linker").href = "https://speierling.arglos.ch/gis/statistics/index"+destSuffix;
+   }
+  </script>
+
 
 </head>
 
@@ -152,7 +167,10 @@ langfristig erhalten bleibt</p>
     <p class="w3-xlarge w3-center" id="statsA" style="margin-bottom:14px"><br/></p>
     <p class="w3-xlarge w3-center" id="statsB" style="margin-top:14px;margin-bottom:32px"><br/><br/></p>
 
-    <a id="link" class="w3-center w3-animate-top"><button><b>Zur Karte gehen</b></button></a>
+    <span class="w3-center w3-animate-top">
+      <a id="link"><button style="width:120px"><b>Karte</b></button></a>
+      <a id="linker"><button style="width:120px"><b>Statistik</b></button></a>
+    </span>
   </div>
 
 
@@ -200,7 +218,8 @@ langfristig erhalten bleibt</p>
 </div>
 
 <script>
-	myfunc();
+  toMap();
+  toStats();
 </script>
 
 <script>
@@ -227,15 +246,18 @@ httpGet('sorbusdomestica.geojson', (text) => {
                               break;
                     case "planted": 
 		               break;
-                    case "graft": stats.plantation++
+                    case "graft": //stats.plantation++
 		               break;
-                    case "seed": stats.plantation++
+                    case "seed": //stats.plantation++
 		               break;
                     default: break;
 
                  }
              }
-          }
+         }
+	  
+          if(item.properties.tags['speierlingproject:neupflanzung'])stats.plantation++;
+	  
           if(item.properties.pictures){
 	      stats.pics+=item.properties.pictures.length
 	  }else if(item.properties.tags["meta:media_size"]){

@@ -7321,7 +7321,7 @@
         "type": "node",
         "id": "6049833637",
         "tags": {
-          "circumference": "1.90",
+          "circumference": "1.94",
           "denotation": "natural_monument",
           "leaf_cycle": "deciduous",
           "leaf_type": "broadleaved",
@@ -7333,11 +7333,11 @@
         },
         "relations": [],
         "meta": {
-          "timestamp": "2024-12-28T10:42:09Z",
-          "version": "8",
-          "changeset": "160707820",
-          "user": "martindick56",
-          "uid": "2814669"
+          "timestamp": "2025-01-19T17:35:28Z",
+          "version": "9",
+          "changeset": "161533720",
+          "user": "bstotz",
+          "uid": "1026237"
         },
         "nominatim": {
           "address": {
@@ -12597,14 +12597,15 @@
           "leaf_type": "broadleaved",
           "natural": "tree",
           "note": "data: July 2019",
+          "propagation": "natural",
           "species": "Sorbus domestica",
           "species:de": "Speierling"
         },
         "relations": [],
         "meta": {
-          "timestamp": "2020-09-04T20:08:11Z",
-          "version": "3",
-          "changeset": "90431690",
+          "timestamp": "2025-01-17T22:56:17Z",
+          "version": "4",
+          "changeset": "161473761",
           "user": "martindick56",
           "uid": "2814669"
         },
@@ -63654,7 +63655,7 @@
           "natural": "tree",
           "note": "data: February 2024",
           "propagation": "seed",
-          "source": "Céligny",
+          "source": "C��ligny",
           "species": "Sorbus domestica",
           "species:de": "Speierling"
         },
@@ -86994,6 +86995,438 @@
           8.5604657,
           47.3580743,
           1469.3851318359375
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12512764962",
+      "properties": {
+        "type": "node",
+        "id": "12512764962",
+        "tags": {
+          "circumference": "0.53",
+          "leaf_cycle": "deciduous",
+          "leaf_type": "broadleaved",
+          "maintenance": "photo",
+          "natural": "tree",
+          "propagation": "planted",
+          "species": "Sorbus domestica",
+          "species:de": "Speierling",
+          "survey:date": "2025-01-18"
+        },
+        "relations": [],
+        "meta": {
+          "timestamp": "2025-01-18T18:58:55Z",
+          "version": "1",
+          "changeset": "161502705",
+          "user": "martindick56",
+          "uid": "2814669"
+        },
+        "nominatim": {
+          "address": {
+            "village": "Lengnau (BE)",
+            "county": "Verwaltungskreis Biel/Bienne",
+            "state_district": "Verwaltungsregion Seeland",
+            "state": "Bern/Berne",
+            "ISO3166-2-lvl4": "CH-BE",
+            "postcode": "2543",
+            "country": "Schweiz/Suisse/Svizzera/Svizra",
+            "country_code": "ch"
+          },
+          "display_name": "Lengnau (BE), Verwaltungskreis Biel/Bienne, Verwaltungsregion Seeland, Bern/Berne, 2543, Schweiz/Suisse/Svizzera/Svizra"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.360877,
+          47.1926509,
+          656.8743896484375
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12512829234",
+      "properties": {
+        "type": "node",
+        "id": "12512829234",
+        "tags": {
+          "circumference": "0.28",
+          "leaf_cycle": "deciduous",
+          "leaf_type": "broadleaved",
+          "maintenance": "photo",
+          "natural": "tree",
+          "propagation": "planted",
+          "species": "Sorbus domestica",
+          "species:de": "Speierling",
+          "start_date": "2001",
+          "survey:date": "2025-01-18"
+        },
+        "relations": [],
+        "meta": {
+          "timestamp": "2025-01-18T20:10:13Z",
+          "version": "1",
+          "changeset": "161504483",
+          "user": "martindick56",
+          "uid": "2814669"
+        },
+        "nominatim": {
+          "address": {
+            "city": "Biel/Bienne",
+            "county": "Verwaltungskreis Biel/Bienne",
+            "state_district": "Verwaltungsregion Seeland",
+            "state": "Bern/Berne",
+            "ISO3166-2-lvl4": "CH-BE",
+            "country": "Schweiz/Suisse/Svizzera/Svizra",
+            "country_code": "ch"
+          },
+          "display_name": "Biel/Bienne, Verwaltungskreis Biel/Bienne, Verwaltungsregion Seeland, Bern/Berne, Schweiz/Suisse/Svizzera/Svizra"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.3080716,
+          47.1635841,
+          630.4464721679688
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12512829235",
+      "properties": {
+        "type": "node",
+        "id": "12512829235",
+        "tags": {
+          "circumference": "0.19",
+          "leaf_cycle": "deciduous",
+          "leaf_type": "broadleaved",
+          "maintenance": "photo",
+          "natural": "tree",
+          "propagation": "planted",
+          "species": "Sorbus domestica",
+          "species:de": "Speierling",
+          "start_date": "2001",
+          "survey:date": "2025-01-18"
+        },
+        "relations": [],
+        "meta": {
+          "timestamp": "2025-01-18T20:10:13Z",
+          "version": "1",
+          "changeset": "161504483",
+          "user": "martindick56",
+          "uid": "2814669"
+        },
+        "nominatim": {
+          "address": {
+            "city": "Biel/Bienne",
+            "county": "Verwaltungskreis Biel/Bienne",
+            "state_district": "Verwaltungsregion Seeland",
+            "state": "Bern/Berne",
+            "ISO3166-2-lvl4": "CH-BE",
+            "country": "Schweiz/Suisse/Svizzera/Svizra",
+            "country_code": "ch"
+          },
+          "display_name": "Biel/Bienne, Verwaltungskreis Biel/Bienne, Verwaltungsregion Seeland, Bern/Berne, Schweiz/Suisse/Svizzera/Svizra"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.3080342,
+          47.1636426,
+          630.4408569335938
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12512829236",
+      "properties": {
+        "type": "node",
+        "id": "12512829236",
+        "tags": {
+          "circumference": "0.29",
+          "leaf_cycle": "deciduous",
+          "leaf_type": "broadleaved",
+          "maintenance": "photos",
+          "natural": "tree",
+          "propagation": "planted",
+          "species": "Sorbus domestica",
+          "species:de": "Speierling",
+          "start_date": "2001",
+          "survey:date": "2025-01-18"
+        },
+        "relations": [],
+        "meta": {
+          "timestamp": "2025-01-18T20:10:13Z",
+          "version": "1",
+          "changeset": "161504483",
+          "user": "martindick56",
+          "uid": "2814669"
+        },
+        "nominatim": {
+          "address": {
+            "city": "Biel/Bienne",
+            "county": "Verwaltungskreis Biel/Bienne",
+            "state_district": "Verwaltungsregion Seeland",
+            "state": "Bern/Berne",
+            "ISO3166-2-lvl4": "CH-BE",
+            "country": "Schweiz/Suisse/Svizzera/Svizra",
+            "country_code": "ch"
+          },
+          "display_name": "Biel/Bienne, Verwaltungskreis Biel/Bienne, Verwaltungsregion Seeland, Bern/Berne, Schweiz/Suisse/Svizzera/Svizra"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.3080879,
+          47.1637217,
+          630.4779052734375
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12512829237",
+      "properties": {
+        "type": "node",
+        "id": "12512829237",
+        "tags": {
+          "circumference": "0.28",
+          "leaf_cycle": "deciduous",
+          "leaf_type": "broadleaved",
+          "maintenance": "photo",
+          "natural": "tree",
+          "propagation": "planted",
+          "species": "Sorbus domestica",
+          "species:de": "Speierling",
+          "start_date": "2001",
+          "survey:date": "2025-01-18"
+        },
+        "relations": [],
+        "meta": {
+          "timestamp": "2025-01-18T20:10:13Z",
+          "version": "1",
+          "changeset": "161504483",
+          "user": "martindick56",
+          "uid": "2814669"
+        },
+        "nominatim": {
+          "address": {
+            "city": "Biel/Bienne",
+            "county": "Verwaltungskreis Biel/Bienne",
+            "state_district": "Verwaltungsregion Seeland",
+            "state": "Bern/Berne",
+            "ISO3166-2-lvl4": "CH-BE",
+            "country": "Schweiz/Suisse/Svizzera/Svizra",
+            "country_code": "ch"
+          },
+          "display_name": "Biel/Bienne, Verwaltungskreis Biel/Bienne, Verwaltungsregion Seeland, Bern/Berne, Schweiz/Suisse/Svizzera/Svizra"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.3074111,
+          47.1633636,
+          630.1249389648438
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12512908363",
+      "properties": {
+        "type": "node",
+        "id": "12512908363",
+        "tags": {
+          "circumference": "0.41",
+          "leaf_cycle": "deciduous",
+          "leaf_type": "broadleaved",
+          "maintenance": "photo",
+          "natural": "tree",
+          "propagation": "planted",
+          "species": "Sorbus domestica",
+          "species:de": "Speierling",
+          "start_date": "2001",
+          "survey:date": "2025-01-18"
+        },
+        "relations": [],
+        "meta": {
+          "timestamp": "2025-01-18T20:31:16Z",
+          "version": "1",
+          "changeset": "161505030",
+          "user": "martindick56",
+          "uid": "2814669"
+        },
+        "nominatim": {
+          "address": {
+            "city": "Biel/Bienne",
+            "county": "Verwaltungskreis Biel/Bienne",
+            "state_district": "Verwaltungsregion Seeland",
+            "state": "Bern/Berne",
+            "ISO3166-2-lvl4": "CH-BE",
+            "country": "Schweiz/Suisse/Svizzera/Svizra",
+            "country_code": "ch"
+          },
+          "display_name": "Biel/Bienne, Verwaltungskreis Biel/Bienne, Verwaltungsregion Seeland, Bern/Berne, Schweiz/Suisse/Svizzera/Svizra"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.30679,
+          47.1637,
+          629.9196166992188
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12512908364",
+      "properties": {
+        "type": "node",
+        "id": "12512908364",
+        "tags": {
+          "circumference": "0.32",
+          "leaf_cycle": "deciduous",
+          "leaf_type": "broadleaved",
+          "maintenance": "photo",
+          "natural": "tree",
+          "propagation": "planted",
+          "species": "Sorbus domestica",
+          "species:de": "Speierling",
+          "start_date": "2001",
+          "survey:date": "2025-01-18"
+        },
+        "relations": [],
+        "meta": {
+          "timestamp": "2025-01-18T20:31:16Z",
+          "version": "1",
+          "changeset": "161505030",
+          "user": "martindick56",
+          "uid": "2814669"
+        },
+        "nominatim": {
+          "address": {
+            "city": "Biel/Bienne",
+            "county": "Verwaltungskreis Biel/Bienne",
+            "state_district": "Verwaltungsregion Seeland",
+            "state": "Bern/Berne",
+            "ISO3166-2-lvl4": "CH-BE",
+            "country": "Schweiz/Suisse/Svizzera/Svizra",
+            "country_code": "ch"
+          },
+          "display_name": "Biel/Bienne, Verwaltungskreis Biel/Bienne, Verwaltungsregion Seeland, Bern/Berne, Schweiz/Suisse/Svizzera/Svizra"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.3063615,
+          47.163603,
+          629.7191772460938
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12512908365",
+      "properties": {
+        "type": "node",
+        "id": "12512908365",
+        "tags": {
+          "circumference": "0.26",
+          "leaf_cycle": "deciduous",
+          "leaf_type": "broadleaved",
+          "maintenance": "photo",
+          "natural": "tree",
+          "propagation": "planted",
+          "species": "Sorbus domestica",
+          "species:de": "Speierling",
+          "start_date": "2001",
+          "survey:date": "2025-01-18"
+        },
+        "relations": [],
+        "meta": {
+          "timestamp": "2025-01-18T20:31:16Z",
+          "version": "1",
+          "changeset": "161505030",
+          "user": "martindick56",
+          "uid": "2814669"
+        },
+        "nominatim": {
+          "address": {
+            "city": "Biel/Bienne",
+            "county": "Verwaltungskreis Biel/Bienne",
+            "state_district": "Verwaltungsregion Seeland",
+            "state": "Bern/Berne",
+            "ISO3166-2-lvl4": "CH-BE",
+            "country": "Schweiz/Suisse/Svizzera/Svizra",
+            "country_code": "ch"
+          },
+          "display_name": "Biel/Bienne, Verwaltungskreis Biel/Bienne, Verwaltungsregion Seeland, Bern/Berne, Schweiz/Suisse/Svizzera/Svizra"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.3061048,
+          47.1636421,
+          629.6165161132812
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12512908366",
+      "properties": {
+        "type": "node",
+        "id": "12512908366",
+        "tags": {
+          "cirumference": "0.29",
+          "leaf_cycle": "deciduous",
+          "leaf_type": "broadleaved",
+          "maintenance": "photo",
+          "natural": "tree",
+          "propagation": "planted",
+          "species": "Sorbus domestica",
+          "species:de": "Speierling",
+          "start_date": "2001",
+          "survey:date": "2025-01-18"
+        },
+        "relations": [],
+        "meta": {
+          "timestamp": "2025-01-18T20:31:16Z",
+          "version": "1",
+          "changeset": "161505030",
+          "user": "martindick56",
+          "uid": "2814669"
+        },
+        "nominatim": {
+          "address": {
+            "city": "Biel/Bienne",
+            "county": "Verwaltungskreis Biel/Bienne",
+            "state_district": "Verwaltungsregion Seeland",
+            "state": "Bern/Berne",
+            "ISO3166-2-lvl4": "CH-BE",
+            "country": "Schweiz/Suisse/Svizzera/Svizra",
+            "country_code": "ch"
+          },
+          "display_name": "Biel/Bienne, Verwaltungskreis Biel/Bienne, Verwaltungsregion Seeland, Bern/Berne, Schweiz/Suisse/Svizzera/Svizra"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.30548,
+          47.16352,
+          629.3275756835938
         ]
       }
     },

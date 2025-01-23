@@ -3,24 +3,30 @@
 
 ///////////////////////////////////////popup////////////////////////////////////////
 
-function portrait(feature, history){
+function portrait(feature, diffs){
 
     let last_update=false;
-    let wachstum;
+    let estimatedGroth;
+    let estimatedAge;
+    let estimatedStartDate;
     
-    if(history){
-        let diffs = diffHistory(history);
-
-	diffs=addHistoricToDiffHistory(feature,diffs)
-
-	let dim = getChanges(diffs, ["height","circumference","diameter_crown"]);
-	last_update = dim[dim.length-1].timestamp;
+    if(diffs){
+	let dim = getChanges(diffs, ["height","circumference"]);
+	if(dim.length>0)last_update = dim[dim.length-1].timestamp;
+	
 	dim = getChanges(diffs, ["circumference"]);
-	let erster = dim[0];
-	let letzter = dim[dim.length-1];
-	let dauer = decimalYear(letzter.timestamp)-decimalYear(erster.timestamp);
-	let zuwachs = letzter.circumference - erster.circumference;
-	if(dauer>0.0)wachstum=Math.round((1000.0*zuwachs)/dauer)/10.0;
+	if(dim.length>=2){
+	    let erster = dim[0];
+	    let letzter = dim[dim.length-1];
+	    let dauer = decimalYear(letzter.timestamp)-decimalYear(erster.timestamp);
+	    let zuwachs = letzter.circumference - erster.circumference;
+	    let relativeZuwachs= zuwachs / letzter.circumference;
+	    if( relativeZuwachs>0.2 || dauer > 10.0 ){
+		estimatedGroth=Math.round( (1000.0*zuwachs)/dauer )/10.0;
+		estimatedAge = 100.0*letzter.circumference / estimatedGroth;
+		estimatedStartDate = Math.round( decimalYear(letzter.timestamp)-estimatedAge)+'-01-01';
+	    }
+	}
     }
 
     
@@ -81,7 +87,7 @@ function portrait(feature, history){
     */
     
     if(tags.circumference||tags.diameter_crown||tags.height){
-	appendTableRow(tabelle, "letzte Datenerhebung:", year(last_update));
+	appendTableRow(tabelle, "Daten von:", year(last_update));
     }
     
     if(tags.circumference) {           
@@ -122,7 +128,7 @@ function portrait(feature, history){
     }
     if(feature.properties.parentFeature){
         let parent = feature.properties.parentFeature;
-        // later will be pOrt = tags["addr:gemeinde]
+
         let pOrt = parent.properties.tags["addr:full"].split(',')[0];
         let pGebiet = parent.properties.tags["speierlingproject:gebiet"];
         let pCoords = parent.geometry.coordinates;
@@ -130,20 +136,24 @@ function portrait(feature, history){
 	let herkunft = '<span style="color:rgb(0,120,168)" onclick="map.setView(L.latLng('+pCoords[1]+','+pCoords[0]+'))">'+pOrt+'/'+pGebiet+'</span>';
 	appendTableRow(tabelle, "Herkunft:", herkunft)
     }
-    
+
+    let jetzt=dateNowISO();
     if(tags.start_date){
-	let a = 2025 - tags.start_date;
+	
+	
+	//let uhu=2025
+	let a = Math.round( decimalYear(jetzt) - decimalYear(tags.start_date))
 	appendTableRow(tabelle, "Pflanzjahr:", tags.start_date );
 	appendTableRow(tabelle, "Alter:", a+' Jahre')
     }else{
 	if(tags.circumference){
 	    let groth;
-	    if(wachstum){
-		groth=100.0/wachstum;
+	    if(estimatedGroth){
+		groth=100.0/estimatedGroth;
 	    }else{
 		groth=60
 	    }
-	    let starter=Math.round( (2025-tags.circumference*groth)/10.0 ) * 10;
+	    let starter=Math.round( (decimalYear(jetzt) -tags.circumference*groth)/10.0 ) * 10;
 	     let desc;
 	     if(tags.propagation=="natural" || tags.propagation=="sucker"){
 		 desc="gesch.&nbsp;Keimjahr:";
@@ -161,8 +171,8 @@ function portrait(feature, history){
            w=Math.round(1000.0*w)/10;
 	   appendTableRow(tabelle, "BHU-Wachstum:", w+' cm/a');
        }
-    }else if(wachstum){
-	appendTableRow(tabelle, "BHU-Wachstum:", wachstum+' cm/a');
+    }else if(estimatedGroth){
+	appendTableRow(tabelle, "BHU-Wachstum:", estimatedGroth+' cm/a');
     }
 
     if(tags["speierlingproject:Fruechte"]){
